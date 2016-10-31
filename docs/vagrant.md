@@ -25,3 +25,9 @@ $ vagrant plugin install vagrant-vmware-fusion
 ```
 
 Note: the plugin needs license file.
+
+## SSH agent forwarding
+
+Allow SSH agent forwarding in your local `~/.ssh/config` and make sure the IP-addess is the same as in the Vagrantfile.
+
+See [Github: Using SSH agent forwarding](https://developer.github.com/guides/using-ssh-agent-forwarding/).
