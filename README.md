@@ -11,8 +11,10 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 ### Software specific instructions
 
-- [Ansible](ansible.md)
-- [Vagrant](vagrant.md)
+- [Ansible](ansible.md) \*
+- [Vagrant](vagrant.md) \*
+
+\* included in druid-toolbelt
 
 ## Infra template
 
