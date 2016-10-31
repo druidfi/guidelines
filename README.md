@@ -12,11 +12,12 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 ### Software specific instructions
 
 - [Ansible](ansible.md)
+- [Vagrant](vagrant.md)
 
 ## Infra template
 
-TODO
+- [GitHub-repository](https://github.com/druidfi/ansible-project-infra-template)
 
 ## Drupal 8 -site template
 
-TODO
+- [GitHub-repository](https://github.com/druidfi/d8-template)

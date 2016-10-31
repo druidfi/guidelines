@@ -1,5 +1,9 @@
 # Ansible
 
+See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
+
+Note: our infra repositories require Ansible 2.
+
 ## Install
 
 Option 1: install using Brew
@@ -11,7 +15,8 @@ $ brew install ansible
 Option 2: install using pip
 
 ```
-$ brew install ansible
+$ easy_install pip
+$ pip install ansible
 ```
 
 ## Install Ansible Galaxy roles
