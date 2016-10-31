@@ -14,6 +14,13 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 - [Ansible](docs/ansible.md) \*
 - [Vagrant](docs/vagrant.md) \*
 
+#### TODO-list
+
+- Brew
+- Composer
+- Docker for Mac
+- Drush
+
 \* included in druid-toolbelt
 
 ## Infra template
