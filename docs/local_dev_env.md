@@ -29,7 +29,7 @@ Currently the default option for most projects. Project is developed on top of i
 
 - [Composer](composer.md)
 - [Docker for Mac](docker_for_mac.md)
-- Drush
+- [Drush](drush.md)
 
 ### Setup workflow
 

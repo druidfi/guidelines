@@ -19,11 +19,11 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 - [Brew](docs/brew.md) \*
 - [Composer](docs/composer.md) \*
 - [Docker for Mac](docs/docker_for_mac.md)
-- Drush
+- [Drush](docs/drush.md) \*
 - [Vagrant](docs/vagrant.md) \*
 - [VMWare Fusion](docs/vmware_fusion.md) \*
 
-\* included in druid-toolbelt
+\* included in [druid-toolbelt](https://github.com/druidfi/druid-toolbelt)
 
 ## Infra template
 
