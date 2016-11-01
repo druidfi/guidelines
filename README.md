@@ -7,7 +7,7 @@ See general notes about local development [here](docs/local_dev_env.md).
 
 ## Software
 
-When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) to install most common tools: 
+When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) on OSX/macOS to install most common tools: 
 
 ```
 $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/install.sh)"
@@ -17,16 +17,16 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [Ansible](docs/ansible.md) \*
 - [Brew](docs/brew.md) \*
+- [Composer](docs/composer.md) \*
 - [Docker for Mac](docs/docker_for_mac.md)
 - [Vagrant](docs/vagrant.md) \*
 - [VMWare Fusion](docs/vmware_fusion.md) \*
 
+\* included in druid-toolbelt
+
 #### TODO-list
 
-- Composer
 - Drush
-
-\* included in druid-toolbelt
 
 ## Infra template
 
