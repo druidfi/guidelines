@@ -8,7 +8,7 @@ Currently the default option for most projects. Project is developed on top of i
 
 - [Ansible](ansible.md)
 - [Vagrant](vagrant.md)
-- VMWare Fusion or Virtualbox
+- [VMWare Fusion](vmware_fusion.md) or Virtualbox
 - Access to project infra repository
 - Access to project repository
 
@@ -33,6 +33,6 @@ Currently the default option for most projects. Project is developed on top of i
 
 - Clone project repository
 - Build the codebase
-- Start Docker environent with `docker-compose up -d`
+- Start Docker environment with `docker-compose up -d`
 - Develop
 

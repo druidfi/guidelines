@@ -6,7 +6,7 @@ Note: our infra repositories require Ansible 2.
 
 ## Install
 
-Option 1: install using Brew
+Option 1: install using [Brew](brew.md)
 
 ```
 $ brew install ansible

@@ -2,6 +2,8 @@
 
 See VMWare Fusion [homepage](http://www.vmware.com/products/fusion.html) for more information.
 
+Latest version is 8.5.1 (Nov 1st 2016).
+
 ## Requirements
 
 - OSX/macOS
@@ -9,7 +11,7 @@ See VMWare Fusion [homepage](http://www.vmware.com/products/fusion.html) for mor
 
 ## Install
 
-Option 1: install using Brew
+Option 1: install using [Brew](brew.md)
 
 ```
 $ brew cask install vmware-fusion

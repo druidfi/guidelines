@@ -16,13 +16,13 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 ### Software specific instructions
 
 - [Ansible](docs/ansible.md) \*
+- [Brew](docs/brew.md) \*
 - [Docker for Mac](docs/docker_for_mac.md)
 - [Vagrant](docs/vagrant.md) \*
 - [VMWare Fusion](docs/vmware_fusion.md) \*
 
 #### TODO-list
 
-- Brew
 - Composer
 - Drush
 

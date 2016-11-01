@@ -6,10 +6,10 @@ Note: recommended version is 1.8.6 or newer.
 
 ## Install
 
-Option 1: install using Brew
+Option 1: install using [Brew](brew.md)
 
 ```
-$ brew install vagrant
+$ brew cask install vagrant
 ```
 
 Option 2: install manually
