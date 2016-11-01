@@ -1,6 +1,10 @@
 # Druid technical guidelines
 Various guidelines related to technical work
 
+## Local development environment
+
+See general notes about local development [here](docs/local_dev_env.md).
+
 ## Software
 
 When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) to install most common tools: 
@@ -12,13 +16,13 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 ### Software specific instructions
 
 - [Ansible](docs/ansible.md) \*
+- [Docker for Mac](docs/docker_for_mac.md)
 - [Vagrant](docs/vagrant.md) \*
 
 #### TODO-list
 
 - Brew
 - Composer
-- Docker for Mac
 - Drush
 
 \* included in druid-toolbelt
