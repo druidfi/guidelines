@@ -1,6 +1,6 @@
 # Docker for Mac
 
-See Docker [homepage](https://www.vagrantup.com/) for more information.
+See Docker [homepage](https://www.docker.com/) for more information.
 
 ## Install 
 
