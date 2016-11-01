@@ -12,7 +12,7 @@ See Composer [homepage](https://getcomposer.org/) for more information.
 
 Install and setup Composer with PHP and move executable to `/usr/local/bin`:
 
-```shell-script
+```shell
 $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"
