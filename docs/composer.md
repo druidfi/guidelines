@@ -22,7 +22,7 @@ $ mv composer.phar /usr/local/bin/composer
 
 Now you should be able to call Composer everywhere:
 
-```
+```shell
 $ composer --version
 ```
 
@@ -30,6 +30,6 @@ $ composer --version
 
 Composer can be updated with:
 
-```
+```shell
 $ composer self-update
 ```

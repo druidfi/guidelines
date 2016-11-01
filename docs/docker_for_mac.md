@@ -10,6 +10,6 @@ Go to [Docker download page](https://www.docker.com/products/docker#/mac) and do
 
 Check Docker version
 
-```
+```shell
 $ docker version
 ```

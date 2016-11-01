@@ -13,7 +13,7 @@ Latest version is 8.5.1 (Nov 1st 2016).
 
 Option 1: install using [Brew](brew.md)
 
-```
+```shell
 $ brew cask install vmware-fusion
 ```
 

@@ -13,13 +13,13 @@ Latest stable version is 8.1.7 (Nov 1st 2016).
 
 Install Drush with Composer:
 
-```
+```shell
 $ composer global require drush/drush
 ```
 
 Now you should be able to call Drush everywhere:
 
-```
+```shell
 $ drush version
 ```
 
@@ -27,6 +27,6 @@ $ drush version
 
 You can update Drush with Composer:
 
-```
+```shell
 $ composer global update
 ```

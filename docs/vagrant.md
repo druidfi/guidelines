@@ -8,7 +8,7 @@ Note: recommended version is 1.8.6 or newer.
 
 Option 1: install using [Brew](brew.md)
 
-```
+```shell
 $ brew cask install vagrant
 ```
 
@@ -20,7 +20,7 @@ Download latest version from https://www.vagrantup.com/downloads.html
 
 [VMWare Fusion](vmware_fusion.md) needs a provider plugin for Vagrant which can be installed like this:
 
-```
+```shell
 $ vagrant plugin install vagrant-vmware-fusion
 ```
 
