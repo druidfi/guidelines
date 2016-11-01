@@ -15,10 +15,10 @@ Currently the default option for most projects. Project is developed on top of i
 ### Setup workflow
 
 - Clone infra repository
-- Create Vagrant machine with `vagrant up` (this will also provision it)
 - Clone project repository
 - Build the codebase
-- Get database and files
+- Create Vagrant machine with `vagrant up` (this will also provision it)
+- Get database and files and put in place
 - Develop
 
 ## Docker based
@@ -27,12 +27,14 @@ Currently the default option for most projects. Project is developed on top of i
 
 ### Requirements
 
+- [Composer](composer.md)
 - [Docker for Mac](docker_for_mac.md)
+- Drush
 
 ### Setup workflow
 
 - Clone project repository
 - Build the codebase
 - Start Docker environment with `docker-compose up -d`
+- Get database and files and put in place
 - Develop
-
