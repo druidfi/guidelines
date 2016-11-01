@@ -8,7 +8,7 @@ See Brew [homepage](http://brew.sh/) for more information.
 - Command Line Tools for Xcode:
 
 ```
-xcode-select --install
+$ xcode-select --install
 ```
 
 ## Install
