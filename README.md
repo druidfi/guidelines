@@ -18,6 +18,7 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 - [Ansible](docs/ansible.md) \*
 - [Docker for Mac](docs/docker_for_mac.md)
 - [Vagrant](docs/vagrant.md) \*
+- [VMWare Fusion](docs/vmware_fusion.md) \*
 
 #### TODO-list
 
@@ -34,3 +35,7 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 ## Drupal 8 -site template
 
 - [GitHub-repository](https://github.com/druidfi/d8-template)
+
+## Misc
+
+- Developing on Linux (TODO)
