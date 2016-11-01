@@ -7,7 +7,7 @@ See Brew [homepage](http://brew.sh/) for more information.
 - OSX/macOS
 - Command Line Tools for Xcode:
 
-```shell
+```
 $ xcode-select --install
 ```
 
@@ -15,7 +15,7 @@ $ xcode-select --install
 
 Install Brew using their script:
 
-```shell
+```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 

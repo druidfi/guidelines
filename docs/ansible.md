@@ -8,13 +8,13 @@ Note: our infra repositories require Ansible 2.
 
 Option 1: install using [Brew](brew.md)
 
-```shell
+```
 $ brew install ansible
 ```
 
 Option 2: install using pip
 
-```shell
+```
 $ easy_install pip
 $ pip install ansible
 ```
@@ -23,7 +23,7 @@ $ pip install ansible
 
 When you have infra repository with requirements.yml file, you can install the roles specified with the following command:
 
-```shell
+```
 $ ansible-galaxy install -r ansible/requirements.yml -p ansible/roles
 ```
 
@@ -31,7 +31,7 @@ This command will read the file `ansible/requirements.yml` and install specified
 
 `ansible-galaxy` command does not have update option, so to update existing roles, you must use `-force` argument:
 
-```shell
+```
 $ ansible-galaxy install -r ansible/requirements.yml -p ansible/roles -force
 ```
 

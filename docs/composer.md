@@ -12,7 +12,7 @@ See Composer [homepage](https://getcomposer.org/) for more information.
 
 Install and setup Composer with PHP and move executable to `/usr/local/bin`:
 
-```shell
+```
 $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 $ php composer-setup.php
 $ php -r "unlink('composer-setup.php');"
@@ -22,7 +22,7 @@ $ mv composer.phar /usr/local/bin/composer
 
 Now you should be able to call Composer everywhere:
 
-```shell
+```
 $ composer --version
 ```
 
@@ -30,6 +30,6 @@ $ composer --version
 
 Composer can be updated with:
 
-```shell
+```
 $ composer self-update
 ```
