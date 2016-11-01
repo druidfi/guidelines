@@ -6,8 +6,8 @@ Currently the default option for most projects. Project is developed on top of i
 
 ### Requirements
 
-- [Ansible](docs/ansible.md)
-- [Vagrant](docs/vagrant.md)
+- [Ansible](ansible.md)
+- [Vagrant](vagrant.md)
 - VMWare Fusion or Virtualbox
 - Access to project infra repository
 - Access to project repository
@@ -23,9 +23,11 @@ Currently the default option for most projects. Project is developed on top of i
 
 ## Docker based
 
+
+
 ### Requirements
 
-- [Docker for Mac](docs/docker_for_mac.md)
+- [Docker for Mac](docker_for_mac.md)
 
 ### Setup workflow
 
