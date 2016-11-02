@@ -36,3 +36,11 @@ $ ansible-galaxy install -r ansible/requirements.yml -p ansible/roles -force
 ```
 
 This command will re-download all roles.
+
+## List installed Ansible Galaxy roles
+
+You can get current installed roles and their version with:
+
+```
+$ ansible-galaxy list -p ansible/roles
+```

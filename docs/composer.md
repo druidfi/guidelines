@@ -4,6 +4,8 @@ Composer is a dependency manager for PHP. It is used e.g. by [Drupal 8 project t
 
 See Composer [homepage](https://getcomposer.org/) for more information.
 
+Latest stable version is 1.2.0 (Nov 1st 2016).
+
 ## Requirements
 
 - PHP

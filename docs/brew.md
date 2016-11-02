@@ -20,3 +20,33 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 
 Note: don't use `sudo` to install Brew
+
+## Install software with Brew
+
+You can install software with install command:
+
+```
+$ brew install ansible
+```
+
+## Update and Upgrade
+
+Fetch the newest version of Homebrew and all formulae: 
+
+```
+$ brew update
+```
+
+Upgrade outdated, unpinned brews: 
+
+```
+$ brew upgrade
+```
+
+## Check your system for potential problems
+
+You can always check health of your brews and Homebrew itself:
+
+```
+$ brew doctor
+```
