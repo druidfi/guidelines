@@ -1,6 +1,10 @@
 # Druid technical guidelines
 Various guidelines related to technical work
 
+## Environments
+
+Read about [environments](docs/environments.md) like development, testing, staging and production.
+
 ## Local development environment
 
 See general notes about local development [here](docs/local_dev_env.md).

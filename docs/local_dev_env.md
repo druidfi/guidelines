@@ -19,6 +19,7 @@ Currently the default option for most projects. Project is developed on top of i
 - Build the codebase
 - Create Vagrant machine with `vagrant up` (this will also provision it)
 - Get database and files and put in place
+- Put IP address to /etc/hosts
 - Develop
 
 ## Docker based
