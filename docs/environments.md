@@ -26,4 +26,5 @@ Read also about [Local development environment](https://github.com/druidfi/guide
 
 ## Production
 
+- Latest release
 - The live application / site

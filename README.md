@@ -37,6 +37,10 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [GitHub-repository](https://github.com/druidfi/d8-template)
 
+## Drupal 7 project template
+
+- [GitHub-repository](https://github.com/druidfi/d7-template)
+
 ## Misc
 
 - Developing on Linux (TODO)
