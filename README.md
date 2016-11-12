@@ -41,6 +41,10 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [GitHub-repository](https://github.com/druidfi/d7-template)
 
+## Continuous Delivery
+
+- [Buddy](docs/buddy.md)
+
 ## Misc
 
 - Developing on Linux (TODO)
