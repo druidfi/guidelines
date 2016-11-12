@@ -6,6 +6,8 @@ See Buddy [homepage](https://buddy.works/) for more information.
 
 ## Implementation on projects
 
+TODO: Marko will create documention with screenshots.
+
 ## Pipeline example
 
 - Name: `Deploy to Testing`
