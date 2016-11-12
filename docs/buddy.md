@@ -10,6 +10,7 @@ TODO: Marko will create documention with screenshots.
 
 ### Requirement for the project
 
+- User account to [Buddy application](https://app.buddy.works)
 - `scripts/create-artifact.sh` script needs be within branch which gets deployed
 - Buddy IPs in project infra `firewall_additional_rules` and provisioned to erver
 - Buddy public key on the server
