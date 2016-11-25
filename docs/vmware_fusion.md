@@ -4,7 +4,7 @@ See VMWare Fusion [homepage](http://www.vmware.com/products/fusion.html) for mor
 
 Note: Latest working version with Vagrant is 8.5.0.
 
-Latest version is 8.5.1 (Nov 1st 2016).
+Latest version is 8.5.2 (Nov 15th 2016).
 
 ## Requirements
 
