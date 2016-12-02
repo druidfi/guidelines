@@ -18,6 +18,12 @@ TODO: Marko will create documention with screenshots.
 
 ### Create a new pipeline
 
+- In the project view, select Add a new pipeline
+- Select "Clone existing pipeline"
+- Select some pipeline e.g. "Deploy to Testing" from some project
+- Select "Clone all action from this pipeline"
+- Clone actions
+
 ### Requirement for the project
 
 - User account to [Buddy application](https://app.buddy.works)

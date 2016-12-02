@@ -4,6 +4,8 @@ See Vagrant [homepage](https://www.vagrantup.com/) for more information.
 
 Note: recommended version is 1.8.6 or newer.
 
+Latest version is 1.9.0 (Dec 1st 2016).
+
 ## Install
 
 Option 1: install using [Brew](brew.md)
