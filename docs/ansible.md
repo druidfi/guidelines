@@ -16,7 +16,7 @@ Option 2: install using pip
 
 ```
 $ easy_install pip
-$ pip install ansible
+$ sudo -H pip install ansible
 ```
 
 ## Install Ansible Galaxy roles
