@@ -28,12 +28,12 @@ Currently the default option for most projects. Project is developed on top of i
 
 ### Requirements
 
-- [Composer](composer.md)
 - [Docker for Mac](docker_for_mac.md)
-- [Drush](drush.md)
+- [Pygmy](pygmy.md)
 
 ### Setup workflow
 
+- Start Pygmy with `pygmy start`
 - Clone project repository
 - Build the codebase
 - Start Docker environment with `docker-compose up -d`
