@@ -33,9 +33,10 @@ Currently the default option for most projects. Project is developed on top of i
 
 ### Setup workflow
 
-- Start Pygmy with `pygmy start`
+- Start Pygmy with `pygmy up`
 - Clone project repository
 - Build the codebase
 - Start Docker environment with `docker-compose up -d`
+- Login to container with `docker-compose exec --user drupal drupal bash`
 - Get database and files and put in place
 - Develop
