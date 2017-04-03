@@ -12,13 +12,13 @@ $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a6421693
 
 ## Install
 
-Option 1: install using [Brew](brew.md)
+Option 1 (Mac): install using [Brew](brew.md)
 
 ```
 $ brew install ansible
 ```
 
-Option 2: install using pip
+Option 2 (Mac & Linux): install using pip
 
 ```
 $ easy_install pip
