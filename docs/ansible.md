@@ -7,6 +7,7 @@ Note: our infra repositories require Ansible 2.2.1 (Apr 3rd 2017).
 NOTE: Currently 2.2.2.x is not working. If your Ansible is updated, you can install version 2.2.1.0_2 with:
 
 ```
+$ brew unlink ansible
 $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a642169312c975bea27617e60c925f7494d44de4/Formula/ansible.rb
 ```
 
