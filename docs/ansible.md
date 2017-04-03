@@ -22,7 +22,7 @@ Option 2: install using pip
 
 ```
 $ easy_install pip
-$ pip install ansible
+$ pip install ansible==2.2.1.0
 ```
 
 ## Install Ansible Galaxy roles
