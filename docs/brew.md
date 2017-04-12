@@ -29,6 +29,19 @@ You can install software with install command:
 $ brew install ansible
 ```
 
+You can install certain version with:
+
+```
+$ brew install ansible@2.1
+```
+
+Or using Git commits (get raw file url):
+
+```
+$ brew unlink ansible
+$ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a642169312c975bea27617e60c925f7494d44de4/Formula/ansible.rb
+```
+
 ## Update and Upgrade
 
 Fetch the newest version of Homebrew and all formulae: 

@@ -35,7 +35,7 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 ## Drupal 8 project template
 
-- [GitHub-repository](https://github.com/druidfi/d8-template)
+- [GitHub-repository](https://github.com/druidfi/drupal-project)
 
 ## Drupal 7 project template
 
