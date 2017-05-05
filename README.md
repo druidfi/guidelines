@@ -47,6 +47,7 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 ## Technical solutions
 
+- [Let's Encrypt and Certbox](docs/letsencrypt.md)
 - [SSO with PHP](docs/sso.md)
 
 ## Misc
