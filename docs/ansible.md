@@ -2,9 +2,13 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Note: our infra repositories require Ansible 2.2.1 (Apr 3rd 2017).
+NOTE 1: Our infra repositories require Ansible 2.2.1 (Apr 3rd 2017).
 
-NOTE: Currently 2.2.2.x is not working. If your Ansible is updated, you can install version 2.2.1.0_2 with:
+NOTE 2: Currently 2.2.2.x is not working.
+
+NOTE 3: Currently 2.3.x works fine but ansible-galaxy does not compy with the --force option to re-download roles.
+
+If your Ansible is updated, you can install version 2.2.1.0_2 with:
 
 ```
 $ brew unlink ansible
