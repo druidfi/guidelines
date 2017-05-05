@@ -2,7 +2,9 @@
 
 See Drush [homepage](http://www.drush.org/) for more information.
 
-Latest stable version is 8.1.8 (Dec 1st 2016).
+Latest stable version is 8.1.11 (Apr 22nd 2017).
+
+Note: We recommend using 8.1.2.
 
 ## Requirements
 

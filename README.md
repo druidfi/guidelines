@@ -45,6 +45,10 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [Buddy](docs/buddy.md)
 
+## Technical solutions
+
+- [SSO with PHP](docs/sso.md)
+
 ## Misc
 
 - Developing on Linux (TODO)
