@@ -22,3 +22,11 @@ Start Pygmy and related services
 ```
 $ pygmy up
 ```
+
+## Add your SSH key (if using Amazee.io servers)
+
+Note: your key needs to be added to Amazee.io servers before. Ask that in #druid channel in Amazee.io Slack.
+
+```
+$ pygmy addkey ~/.ssh/id_rsa
+```
