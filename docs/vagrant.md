@@ -4,7 +4,7 @@ See Vagrant [homepage](https://www.vagrantup.com/) for more information.
 
 Note: recommended version is 1.9.0.
 
-Latest version is 1.9.3 (Mar 23rd 2017).
+Latest version is 1.9.5 (Jun 13th 2017).
 
 ## Install
 
@@ -27,6 +27,17 @@ $ vagrant plugin install vagrant-vmware-fusion
 ```
 
 Note: the plugin needs license file.
+
+## Hostsupdater plugin
+
+This plugin adds an entry to your /etc/hosts file on the host system automatically. See their
+[homepage](https://github.com/cogitatio/vagrant-hostsupdater) for more info.
+
+Install the plugin:
+
+```
+$ vagrant plugin install vagrant-hostsupdater
+```
 
 ## SSH agent forwarding
 
