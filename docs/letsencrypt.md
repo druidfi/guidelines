@@ -11,7 +11,7 @@ Our infras have Certbot installed and auto renewal setup with Crontab.
 
 ## Commands
 
-Note! We assume Certbot is installed to `/opt/certbot`.
+Note! We assume Certbot is installed to `/opt/certbot` and that Nginx is used.
 
 List current certificates:
 
@@ -28,7 +28,7 @@ $ /opt/certbot/certbot-auto certonly --webroot -w /var/www/example/ -d www.examp
 Renew a certificate:
 
 ```
-$ /opt/certbot/certbot-auto renew
+$ /opt/certbot/certbot-auto renew --nginx
 ```
 
 ## Known issues
