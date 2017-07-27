@@ -2,6 +2,8 @@
 
 See Docker [homepage](https://www.docker.com/) for more information.
 
+NOTE! Don't use [Docker for Mac](docker_for_mac.md) at the same time!
+
 ## Install
 
 Option 1 (Mac): install using [Brew](brew.md)

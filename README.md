@@ -21,10 +21,12 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [Ansible](docs/ansible.md) \*
 - [Brew](docs/brew.md) \*
+- [Cachalot](docs/cachalot.md) 
 - [Composer](docs/composer.md) \*
 - [Docker](docs/docker.md) NOTE! This is still the faster way to run Docker on Mac!
 - [Docker for Mac](docs/docker_for_mac.md)
 - [Drush](docs/drush.md) \*
+- [Pygmy](docs/pygmy.md)
 - [Vagrant](docs/vagrant.md) \*
 - [VMWare Fusion](docs/vmware_fusion.md) \*
 
@@ -54,3 +56,4 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 ## Misc
 
 - Developing on Linux (TODO)
+- Using SMTP & SendGrid 

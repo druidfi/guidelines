@@ -2,9 +2,9 @@
 
 See Vagrant [homepage](https://www.vagrantup.com/) for more information.
 
-Note: recommended version is 1.9.0.
+Note: recommended version is 1.9.0 or 1.9.7.
 
-Latest version is 1.9.5 (Jun 13th 2017).
+Latest version is 1.9.7 (Jul 27th 2017).
 
 ## Install
 
