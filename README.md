@@ -11,7 +11,9 @@ See general notes about local development [here](docs/local_dev_env.md).
 
 ## Software
 
-When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) on OSX/macOS to install most common tools: 
+### OSX/macOS
+
+When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) to install most common tools: 
 
 ```
 $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/install.sh)"
@@ -32,7 +34,7 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 \* included in [druid-toolbelt](https://github.com/druidfi/druid-toolbelt)
 
-## Infra template
+## Ansible based infra template (private)
 
 - [GitHub-repository](https://github.com/druidfi/ansible-project-infra-template)
 
