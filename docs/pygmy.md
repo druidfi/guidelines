@@ -1,14 +1,14 @@
 # Pygmy
 
-Pygmy uses [Docker for Mac](docker_for_mac.md) with dnsmasq and ssh-agent containers to easily setup local development environment.
+Pygmy uses Docker with dnsmasq and ssh-agent containers to easily setup local development environment.
 
 See Pygmy [homepage](https://docs.amazee.io/local_docker_development/pygmy.html) for more information.
 
-NOTE! This is still slower than [Docker](docker.md) and [Cachalot](cachalot.md).
+NOTE! On OSX/macOS this is still slower than [Docker](docker.md) and [Cachalot](cachalot.md).
 
 ## Requirements
 
-- [Docker for Mac](docker_for_mac.md)
+- Docker (Linux) or [Docker for Mac](docker_for_mac.md) (OSX/macOS)
 - `docker-compose.yml` file in your site repository
 
 ## Install 
