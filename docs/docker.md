@@ -6,7 +6,7 @@ NOTE! Don't use [Docker for Mac](docker_for_mac.md) at the same time!
 
 ## Install
 
-Option 1 (Mac): install using [Brew](brew.md)
+OSX/macOS using [Brew](brew.md)
 
 ```
 $ brew install docker docker-compose docker-machine
@@ -14,7 +14,7 @@ $ brew install docker docker-compose docker-machine
 
 ## Create the default machine
 
-Create the default VM with VMWare Fusion driver
+Create the default VM with [VMWare Fusion](vmware_fusion.md) driver
 
 ```
 $ docker-machine create default -d vmwarefusion && eval $(docker-machine env default)

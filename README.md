@@ -36,11 +36,11 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 
 - [GitHub-repository](https://github.com/druidfi/ansible-project-infra-template)
 
-## Drupal 8 project template
+## Drupal 8 project template (private)
 
 - [GitHub-repository](https://github.com/druidfi/drupal-project)
 
-## Drupal 7 project template
+## Drupal 7 project template (private)
 
 - [GitHub-repository](https://github.com/druidfi/d7-template)
 
