@@ -11,19 +11,13 @@ See general notes about local development [here](docs/local_dev_env.md).
 
 ## Software
 
-- See [list of software](docs/software.md) used and instructions
+See [list of software](docs/software.md) used and instructions.
 
-## Ansible based infra template (private)
+## Project templates
 
-- [GitHub-repository](https://github.com/druidfi/ansible-project-infra-template)
-
-## Drupal 8 project template (private)
-
-- [GitHub-repository](https://github.com/druidfi/drupal-project)
-
-## Drupal 7 project template (private)
-
-- [GitHub-repository](https://github.com/druidfi/d7-template)
+- [Ansible based infra template](https://github.com/druidfi/ansible-project-infra-template) (private)
+- [Drupal 8 project template](https://github.com/druidfi/drupal-project) (private)
+- [Drupal 7 project template](https://github.com/druidfi/d7-template) (private)
 
 ## Continuous Delivery
 
