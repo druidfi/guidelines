@@ -11,28 +11,7 @@ See general notes about local development [here](docs/local_dev_env.md).
 
 ## Software
 
-### OSX/macOS
-
-When getting a new computer, you can use [druid-toolbelt](https://github.com/druidfi/druid-toolbelt) to install most common tools: 
-
-```
-$ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/install.sh)"
-```
-
-### Software specific instructions
-
-- [Ansible](docs/ansible.md) \*
-- [Brew](docs/brew.md) \*
-- [Cachalot](docs/cachalot.md) 
-- [Composer](docs/composer.md) \*
-- [Docker](docs/docker.md) NOTE! This is still the faster way to run Docker on Mac!
-- [Docker for Mac](docs/docker_for_mac.md)
-- [Drush](docs/drush.md) \*
-- [Pygmy](docs/pygmy.md)
-- [Vagrant](docs/vagrant.md) \*
-- [VMWare Fusion](docs/vmware_fusion.md) \*
-
-\* included in [druid-toolbelt](https://github.com/druidfi/druid-toolbelt)
+- See [list of software](docs/software.md) used and instructions
 
 ## Ansible based infra template (private)
 
