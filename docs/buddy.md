@@ -24,42 +24,54 @@ TODO: Marko will create documention with screenshots.
 - Select "Clone all action from this pipeline"
 - Clone actions
 
-### Requirement for the project
+### Requirement for the Buddy deployment project
 
 - User account to [Buddy application](https://app.buddy.works)
-- `scripts/create-artifact.sh` script needs be within branch which gets deployed
-- Buddy IPs in project infra `firewall_additional_rules` and provisioned to erver
-- Buddy public key on the server
+- Buddy IPs whitelisted in firewall(s) for the targeted server(s)
+- Buddy public key on the server(s)
 
-## Pipeline example
+## Pipeline (example)
 
 - Name: `Deploy to Testing`
 - Trigger mode: `on every push`
-- Branch or tag assigment: `dev`
+- Branch or tag assigment: `development`
 
-### Actions
+### Actions (Atomic deployment example)
 
-- Make database backup to `backups/database_dump_${execution.id}.sql`
-- Create a new build and make `current.tar.gz` of it using `scripts/create-artifact.sh ${env}`
-- Upload the `current.tar.gz` to testing server and to project root (default `/var/www/project`)
-- Extract `current.tar.gz` to `releases/release_${execution.id}`
-- Symlink `current` to `releases/release_${execution.id}` (where current is the webroot)
-- Run drush commands (e.g. `updb`, `cc all` and `fra`)
-- On success: inform on project Slack channel
-- On failure: inform on project Slack channel and/or send email
+- Make database backup
+- Create a new build and make and artifact file (e.g. in Docker)
+- Upload the artifact file to targeted server
+- Extract artifact to `releases`
+- Symlink e.g. `public` to `releases/release_${execution.id}` (where public is the webroot)
+- Run any after deploy commands needed
+- On success: inform on Slack channel and/or send email
+- On failure: inform on Slack channel and/or send email
 
 ## List of Buddy IPs
 
 These are the IPs where commands against the server originate from and they must be allowed by the firewall.
 
+If your firewall supports adding DNS source, make sure to whitelist the new servers with this command:
+
 ```
-108.163.203.143
+iptables -A INPUT -p tcp -s workers.buddy.works -j ACCEPT
+```
+
+Current list of deployment IP’s:
+
+```
+91.200.38.2
+108.163.203.146
 184.154.12.42
 184.154.193.210
-91.200.38.2
+13.59.138.22
+18.220.79.31
+18.221.94.43
+18.220.233.117
+52.14.34.6
+52.15.76.37
 ```
 
 ## Buddy public key (project relative)
 
 Buddy public keys are project relative. You can find the public key from actions which need access to your servers.
-
