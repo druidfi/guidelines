@@ -23,7 +23,7 @@ $ brew install cachalot
 Create Cachalot machine with [VMware Fusion](vmware_fusion.md) and start related services
 
 ```
-$ cachalot create --provider vmware && eval $(cachalot env)
+$ cachalot create --memory=6000 --provider vmware && eval $(cachalot env)
 ```
 
 ## Add Env variables to you shell
