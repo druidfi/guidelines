@@ -31,6 +31,13 @@ Renew a certificate:
 $ /opt/certbot/certbot-auto renew --nginx
 ```
 
+Create certificates without webserver (standalone)
+
+```
+$ systemctl stop nginx
+$ /opt/certbot/certbot-auto certonly --noninteractive --standalone -d www.example.com -d api.example.com --expand
+```
+
 ## Known issues
 
 When using basic auth, Certbot calls back to your server might get Access denied. 
