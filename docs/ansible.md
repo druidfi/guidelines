@@ -2,6 +2,8 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
+Latest version is 2.4.2.0 (Dec 7th 2017).
+
 NOTE 1: Our infra repositories require Ansible 2.2.1 (Apr 3rd 2017).
 
 NOTE 2: Currently 2.2.2.x is not working.
