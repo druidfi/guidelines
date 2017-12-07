@@ -9,7 +9,7 @@ Read about [environments](docs/environments.md) like development, testing, stagi
 
 See general notes about local development [here](docs/local_dev_env.md).
 
-## Software
+## Software and tools
 
 See [list of software](docs/software.md) used and instructions.
 
@@ -31,4 +31,5 @@ See [list of software](docs/software.md) used and instructions.
 ## Misc
 
 - Developing on Linux (TODO)
+- GDPR best practices (TODO)
 - Using SMTP & SendGrid 
