@@ -20,5 +20,6 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 - [Pygmy](pygmy.md)
 - [Vagrant](vagrant.md) \*
 - [VMWare Fusion](vmware_fusion.md) \*
+- [Yarn](yarn.md)
 
 \* included in [druid-toolbelt](https://github.com/druidfi/druid-toolbelt)
