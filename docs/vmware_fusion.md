@@ -2,9 +2,9 @@
 
 See VMWare Fusion [homepage](http://www.vmware.com/products/fusion.html) for more information.
 
-Note: Latest working version with Vagrant is 8.5.8.
+Note: Latest working version with Vagrant is 8.5.8 or 10.1.0.
 
-Latest version is 8.5.8 (Jul 27th 2017).
+Latest version is 10.1.0 (Dec 27th 2017).
 
 ## Requirements
 

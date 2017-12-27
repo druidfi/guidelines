@@ -2,15 +2,9 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Latest version is 2.4.2.0 (Dec 7th 2017).
+Latest version is 2.4.2.0 (Dec 27th 2017).
 
-NOTE 1: Our infra repositories require Ansible 2.2.1 (Apr 3rd 2017).
-
-NOTE 2: Currently 2.2.2.x is not working.
-
-NOTE 3: Currently 2.3.x works fine but ansible-galaxy does not compy with the --force option to re-download roles.
-
-If your Ansible is updated, you can install version 2.2.1.0_2 with:
+If your Ansible gets updated to something not supported, you can install olded version (e.g. 2.2.1.0_2) with:
 
 ```
 $ brew unlink ansible
@@ -29,7 +23,7 @@ Option 2 (Mac & Linux): install using pip
 
 ```
 $ easy_install pip
-$ pip install ansible==2.2.1.0
+$ pip install ansible==2.4.1.0
 ```
 
 ## Install Ansible Galaxy roles
