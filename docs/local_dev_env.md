@@ -25,6 +25,7 @@ Linux
 - Start Docker environment with `docker-compose up -d`
 - Login to container with `docker-compose exec --user drupal drupal bash`
 - Get database and files and put in place
+- Set up [PhpStorm + Xdebug](xdebug_amazee.md)
 - Develop
 
 ## Vagrant based
