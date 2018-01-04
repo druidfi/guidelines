@@ -27,9 +27,10 @@ See [list of software](docs/software.md) used and instructions.
 
 - [Let's Encrypt and Certbox](docs/letsencrypt.md)
 - [SSO with PHP](docs/sso.md)
+- [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/xdebug_amazee.md)
 
 ## Misc
 
 - Developing on Linux (TODO)
 - GDPR best practices (TODO)
-- Using SMTP & SendGrid 
+- Using SMTP & SendGrid
