@@ -1,4 +1,5 @@
 # Druid technical guidelines
+
 Various guidelines related to technical work
 
 ## Environments
@@ -13,7 +14,15 @@ See general notes about local development [here](docs/local_dev_env.md).
 
 See [list of software](docs/software.md) used and instructions.
 
-## Project templates
+## Project tools and templates
+
+- [Spell - Create a new Drupal 8 project](https://github.com/druidfi/spell) (public)
+
+Create a new Drupal 8 project:
+
+```
+$ composer create-project druidfi/spell:dev-master <project-path> --no-interaction
+```
 
 - [Ansible based infra template](https://github.com/druidfi/ansible-project-infra-template) (private)
 - [Drupal 8 project template](https://github.com/druidfi/drupal-project) (private)
