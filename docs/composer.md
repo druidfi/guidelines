@@ -1,10 +1,10 @@
 # Composer
 
-Composer is a dependency manager for PHP. It is used e.g. by [Drupal 8 project template](https://github.com/druidfi/d8-template).
+Composer is a dependency manager for PHP.
 
 See Composer [homepage](https://getcomposer.org/) for more information.
 
-Latest stable version is 1.2.0 (Nov 1st 2016).
+Latest stable version is 1.6.2 (Jan 9th 2018).
 
 ## Requirements
 
@@ -34,4 +34,12 @@ Composer can be updated with:
 
 ```
 $ composer self-update
+```
+
+## Plugins
+
+Composer plugin hirak/prestissimo to speed up downloads:
+
+```
+$ composer global require hirak/prestissimo
 ```
