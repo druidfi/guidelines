@@ -22,12 +22,13 @@ How to configure Xdebug when using Docker and amazee.io.
     ![Break at first line in PHP scripts](../media/xdebug-1.jpg)
 
 2. Enable listening for PHP Debug Connections.
-_Can also be enabled from `Run -> Start Listening for PHP Debug Connections_
+_Can also be enabled from `Run -> Start Listening for PHP Debug Connections`_
 
     ![Start listening for PHP Debug Connections](../media/xdebug-2.jpg)
 
 3. Open your browser and enable your favorite Xdebug helper tool.
-_Make sure your helper tool IDE key is PHPSTORM_
+_Make sure your helper tool IDE key is PHPSTORM._
+_In Xdebug helper (Chrome extension) you can change it by right clicking the icon, choosing options and changing the IDE key by selecting it from the select list."_
 
     ![Enable Xdebug helper tool](../media/xdebug-3.jpg)
 
