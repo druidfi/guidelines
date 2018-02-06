@@ -40,6 +40,6 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 
 ## Misc
 
+- [GDPR guidelines](docs/gdpr.md)
 - Developing on Linux (TODO)
-- GDPR best practices (TODO)
 - Using SMTP & SendGrid
