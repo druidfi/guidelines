@@ -2,6 +2,14 @@
 
 Here are some general guidelines and policies concerning GDPR regulation on our daily software development.
 
+## Reporting breaches
+
+TODO
+
+- Report under 72 hours
+- TODO WHERE?
+- TODO What report includes?
+
 ## Privacy Impact Assessment (PIA)
 
 Always do a PIA to any site/service.
@@ -16,7 +24,12 @@ If no, still go through things below. There are still good recommendations.
 
 ## Database
 
-TODO
+Syncing a database from production or staging environments, the personal data should be anonymized.
+
+### Drupal specific notes
+
+- Drush sql-dump command includes sanitize flag which sanitizes a few user fields and e.g. removes Webform submissions
+if installed. NOTE: sanitizing happens on target machine which is a problem.
 
 ## Backups
 
