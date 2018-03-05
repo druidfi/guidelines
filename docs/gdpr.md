@@ -7,7 +7,7 @@ Here are some general guidelines and policies concerning GDPR regulation on our 
 TODO
 
 - Report under 72 hours
-- [Look here for instructions for reporting](#)
+- [Look here for instructions for reporting](https://docs.google.com/document/d/1e-pnZHLgjLk7xSwv3lF8DDZaqkaW29V-ZFFX-Wvs_UM/edit?usp=sharing)
 - If hosting is from Amazee, inform Amazee on their Slack channel
 
 ## Privacy Impact Assessment (PIA)
@@ -28,7 +28,8 @@ Syncing a database from production or staging environments, the personal data sh
 
 ### Drupal specific notes
 
-- We recommend to use GDPR-module: https://www.drupal.org/project/gdpr (it has a feature for sanitizing data on the
+- When possible, we use Faker/Seeder solution to create dummy content on local and not use production data at all
+- We use GDPR-module: https://www.drupal.org/project/gdpr (it has a feature for sanitizing data on the
 source)
 - Original `drush sql-dump` command includes sanitize flag which sanitizes a few user fields and e.g. removes Webform
 submissions if installed. NOTE: sanitizing happens on target machine which is a problem.
