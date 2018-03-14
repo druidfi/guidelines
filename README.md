@@ -36,7 +36,8 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 
 - [Let's Encrypt and Certbox](docs/letsencrypt.md)
 - [SSO with PHP](docs/sso.md)
-- [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/xdebug_amazee.md)
+- [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
+- [How to analyze logs from Amazee hosted site](docs/amazee_logs.md)
 
 ## Misc
 
