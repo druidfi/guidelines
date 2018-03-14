@@ -55,4 +55,12 @@ Analyze after a date:
 $ request-log-analyzer output.log --after 2018-03-13
 ```
 
+### On Docker
+
+Remove logs.zip:
+
+```
+$ rm ~/shared/files/logs.zip
+```
+
 ## Happy analyzing!
