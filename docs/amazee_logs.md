@@ -1,6 +1,6 @@
 # How to analyze logs from Amazee.io hosted site
 
-How to configure Xdebug when using Docker and amazee.io.
+How to get logs from production environment to your local and analyze them.
 
 ## Requirements
 
