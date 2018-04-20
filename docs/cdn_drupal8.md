@@ -2,9 +2,20 @@
 
 How to configure Amazon CloudFront CDN for Drupal 8 site.
 
+## Requirements
+
+- [CDN](https://www.drupal.org/project/cdn) module
+- Access to [AWS Console and to CloudFront](https://console.aws.amazon.com/cloudfront/home)
+
 ## Create a CloudFront distribution
 
-TODO
+- Click "Create distribution" button
+- Select "Web" and click "Get Started" button
+- Set "Origin Domain Name", this is e.g. "www.yoursite.com"
+- Set "Query String Forwarding and Caching" to "Forward all, cache based on all"
+- Click "Create Distribution" button
+
+Note that provisioning takes some time.
 
 ## Configuration
 
@@ -23,3 +34,8 @@ $config['cdn.settings'] = [
 ```
 
 NOTE! You'll get different cloudfront.net subdomain for your project.
+
+## Links
+
+- Readme for CDN module: https://cgit.drupalcode.org/cdn/tree/README.txt
+
