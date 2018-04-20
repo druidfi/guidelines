@@ -25,7 +25,6 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 ```
 
 - [Ansible based infra template](https://github.com/druidfi/ansible-project-infra-template) (private)
-- [Drupal 8 project template](https://github.com/druidfi/drupal-project) (private)
 - [Drupal 7 project template](https://github.com/druidfi/d7-template) (private)
 
 ## Continuous Delivery
@@ -38,6 +37,7 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
 - [How to analyze logs from Amazee hosted site](docs/amazee_logs.md)
+- [How to setup CloudFront CDN for Drupal 8 site](docs/cdn_drupal8.md)
 
 ## Misc
 
