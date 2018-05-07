@@ -7,7 +7,7 @@ Here are some general guidelines and policies concerning GDPR regulation on our 
 TODO
 
 - Report under 72 hours
-- [Look here for instructions for reporting](https://docs.google.com/document/d/1e-pnZHLgjLk7xSwv3lF8DDZaqkaW29V-ZFFX-Wvs_UM/edit?usp=sharing)
+- [Look here for instructions for reporting](https://docs.google.com/document/d/19403BHhjexKBGndA5Q1TJhrB0JqCWwCTcmCjQNr0aUw)
 - If hosting is from Amazee, inform Amazee on their Slack channel
 
 ## Privacy Impact Assessment (PIA)
