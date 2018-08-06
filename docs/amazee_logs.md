@@ -31,10 +31,10 @@ Download logs (note the domain):
 $ curl -LO https://www.mysite.fi/sites/default/files/logs.zip
 ```
 
-Extract gz log files:
+Extract files:
 
 ```
-$ gunzip *.gz
+$ unzip logs.zip && gunzip *.gz
 ```
 
 Concat all files to one (correct order):
