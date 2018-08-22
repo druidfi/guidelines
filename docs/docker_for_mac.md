@@ -4,7 +4,7 @@ See Docker [homepage](https://www.docker.com/) for more information.
 
 ## Install 
 
-Go to [Docker download page](https://www.docker.com/products/docker#/mac) and download Docker for Mac installer and then install it.
+Download Docker for Mac [here](https://download.docker.com/mac/stable/Docker.dmg) and skip login/signup.
 
 ## Commandline
 
