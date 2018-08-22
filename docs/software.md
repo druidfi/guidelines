@@ -14,8 +14,8 @@ $ sh -c "$(curl -fsSL https://github.com/druidfi/druid-toolbelt/raw/master/insta
 - [Brew](brew.md) \*
 - [Cachalot](cachalot.md) 
 - [Composer](composer.md) \*
-- [Docker](docker.md) NOTE! This is still the faster way to run Docker on Mac!
-- [Docker for Mac](docker_for_mac.md)
+- [Docker](docker.md)
+- [Docker for Mac](docker_for_mac.md) NOTE: this is recommended for Mac
 - [Drush](drush.md) \*
 - [Pygmy](pygmy.md)
 - [Vagrant](vagrant.md) \*
