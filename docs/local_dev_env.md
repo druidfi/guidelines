@@ -10,8 +10,9 @@ For sites hosted on Amazee.io, there is additional information [here](https://do
 
 OSX / macOS
 
-- [Docker](docker.md) and [Cachalot](cachalot.md)
-- [Docker for Mac](docker_for_mac.md) and [Pygmy](pygmy.md)
+- [Docker for Mac](docker_for_mac.md)
+- [Pygmy](pygmy.md) (for Amazee.io powered projects)
+- [Stonehenge](https://github.com/druidfi/stonehenge)
 
 Linux
 
@@ -19,19 +20,16 @@ Linux
 
 ### Setup workflow
 
-- Start [Cachalot](cachalot.md) or [Pygmy](pygmy.md)
+- Start [Pygmy](pygmy.md) or [Stonehenge](https://github.com/druidfi/stonehenge)
 - Clone project repository
 - Build the codebase
-- Start Docker environment with `docker-compose up -d`
-- Login to container with `docker-compose exec --user drupal drupal bash`
-- Get database and files and put in place
-- Set up [PhpStorm + Xdebug](amazee_xdebug.md)
+- Start Docker environment with
 - Develop
 
 ## Vagrant based
 
-Currently the default option for most projects. Project is developed on top of infra created for the project. Infra
-repository has Vagrant configuration with Ansible provision.
+Older projects are developed on top of infra created for the project. Infra
+repositories have Vagrant configuration with Ansible based provision.
 
 ### Requirements
 
