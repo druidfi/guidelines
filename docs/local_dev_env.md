@@ -18,6 +18,10 @@ Linux
 
 - [Docker](docker.md) and [Pygmy](pygmy.md)
 
+Tips for Docker
+
+- [Docker tips](docker-tips.md)
+
 ### Setup workflow
 
 - Start [Pygmy](pygmy.md) or [Stonehenge](https://github.com/druidfi/stonehenge)

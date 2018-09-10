@@ -1,4 +1,4 @@
-# Docker for Mac
+# Docker for Mac (recommended)
 
 See Docker [homepage](https://www.docker.com/) for more information.
 
@@ -12,4 +12,10 @@ Check Docker version
 
 ```
 $ docker version
+```
+
+docker-compose is included:
+
+```
+$ docker-compose version
 ```
