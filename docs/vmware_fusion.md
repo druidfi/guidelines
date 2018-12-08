@@ -2,13 +2,11 @@
 
 See VMWare Fusion [homepage](http://www.vmware.com/products/fusion.html) for more information.
 
-Note: Latest working version with Vagrant is 8.5.8 or 10.1.0.
-
-Latest version is 10.1.0 (Dec 27th 2017).
+Latest version is 11.0.2 (Dec 8th 2018).
 
 ## Requirements
 
-- OSX/macOS
+- macOS
 - License
 
 ## Install

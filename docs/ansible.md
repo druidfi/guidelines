@@ -2,7 +2,7 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Latest version is 2.4.2.0 (Dec 27th 2017).
+Latest version is 2.7.4 (Dec 8th 2018).
 
 If your Ansible gets updated to something not supported, you can install olded version (e.g. 2.2.1.0_2) with:
 

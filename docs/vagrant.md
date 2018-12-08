@@ -2,9 +2,7 @@
 
 See Vagrant [homepage](https://www.vagrantup.com/) for more information.
 
-Note: recommended version is 2.0.1.
-
-Latest version is 2.0.1 (Dec 27th 2017).
+Latest version is 2.2.2 (Dec 8th 2018).
 
 ## Install
 

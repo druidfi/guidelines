@@ -1,6 +1,6 @@
 # Local development environment
 
-## Docker based
+## Docker based (recommended)
 
 When ever possible, we prefer Docker based local development.
 
@@ -8,15 +8,16 @@ For sites hosted on Amazee.io, there is additional information [here](https://do
 
 ### Requirements
 
-OSX / macOS
-
-- [Docker for Mac](docker_for_mac.md)
 - [Pygmy](pygmy.md) (for Amazee.io powered projects)
 - [Stonehenge](https://github.com/druidfi/stonehenge)
 
+macOS
+
+- [Docker for Mac](docker_for_mac.md)
+
 Linux
 
-- [Docker](docker.md) and [Pygmy](pygmy.md)
+- [Docker](docker.md)
 
 Tips for Docker
 

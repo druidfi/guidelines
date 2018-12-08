@@ -57,20 +57,8 @@ If your firewall supports adding DNS source, make sure to whitelist the new serv
 iptables -A INPUT -p tcp -s workers.buddy.works -j ACCEPT
 ```
 
-Current list of deployment IP’s:
-
-```
-91.200.38.2
-108.163.203.146
-184.154.12.42
-184.154.193.210
-13.59.138.22
-18.220.79.31
-18.221.94.43
-18.220.233.117
-52.14.34.6
-52.15.76.37
-```
+Up-to-date list of IPs can be found from here:
+https://buddy.works/knowledge/deployments/what-are-buddy-ip-addresses
 
 ## Buddy public key (project relative)
 

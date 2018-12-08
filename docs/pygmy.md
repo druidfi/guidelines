@@ -29,6 +29,8 @@ $ pygmy up
 
 Note: your key needs to be added to Amazee.io servers before. Ask that in #druid channel in Amazee.io Slack.
 
+## Using custom key (and not ~/.ssh/id_rsa)
+
 ```
-$ pygmy addkey ~/.ssh/id_rsa
+$ pygmy addkey /path/to/some/custom/key
 ```
