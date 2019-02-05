@@ -31,7 +31,12 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 
 ## Continuous Delivery (CD)
 
+Git based Continuous Delivery solutions
+
+- [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
+- [Amazee.io Legacy](https://docs.amazee.io/automated_deployments.html)
 - [Buddy](docs/buddy.md)
+- Stonehenge Server (TODO)
 
 ## Technical tutorials
 
@@ -46,4 +51,3 @@ $ composer create-project druidfi/spell:dev-master <project-path> --no-interacti
 
 - [GDPR guidelines](docs/gdpr.md)
 - Developing on Linux (TODO)
-
