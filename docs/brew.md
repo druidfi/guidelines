@@ -5,11 +5,6 @@ See Brew [homepage](http://brew.sh/) for more information.
 ## Requirements
 
 - OSX/macOS
-- Command Line Tools for Xcode:
-
-```
-$ xcode-select --install
-```
 
 ## Install
 

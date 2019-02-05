@@ -20,7 +20,7 @@ Install Ruby
 $ brew install ruby
 ```
 
-Install PHP 7.2.x
+Install PHP 7.3.x
 
 ```
 $ brew install php

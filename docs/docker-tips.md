@@ -47,6 +47,8 @@ Prune all:
 $ docker system prune -a
 ```
 
+More about pruning: https://docs.docker.com/config/pruning/
+
 ## Links
 
 - [Docker Cheat Sheet](https://github.com/wsargent/docker-cheat-sheet)

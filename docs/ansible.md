@@ -2,14 +2,7 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Latest version is 2.7.4 (Dec 8th 2018).
-
-If your Ansible gets updated to something not supported, you can install olded version (e.g. 2.2.1.0_2) with:
-
-```
-$ brew unlink ansible
-$ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a642169312c975bea27617e60c925f7494d44de4/Formula/ansible.rb
-```
+Latest version is 2.7.6 (Feb 5th 2019).
 
 ## Install
 
@@ -50,4 +43,13 @@ You can get current installed roles and their version with:
 
 ```
 $ ansible-galaxy list -p ansible/roles
+```
+
+## Get older version
+
+If your Ansible gets updated to something not supported, you can install olded version (e.g. 2.2.1.0_2) with:
+
+```
+$ brew unlink ansible
+$ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a642169312c975bea27617e60c925f7494d44de4/Formula/ansible.rb
 ```

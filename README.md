@@ -7,7 +7,7 @@ Various guidelines related to technical work
 - [Pygmy](docs/pygmy.md) - Amazee.io specific Docker toolset for Drupal projects.
 - [StoneHenge](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
 
-See general notes about local development [here](docs/local_dev_env.md). Also check [terminology](docs/environments.md)
+See general notes about [local development environment](docs/local_dev_env.md). Also check [terminology](docs/environments.md)
 for the different environments.
 
 ## Software and tools

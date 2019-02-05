@@ -24,6 +24,18 @@ Tips for Docker
 - Start Docker environment with
 - Develop
 
+### Switch between Pygmy and Stonehenge
+
+As both tools are listening to same ports, they cannot be running at the same time.
+
+To switch to another, you need to stop the other:
+
+```
+$ pygmy stop && stonehenge up
+```
+
+And vice versa.
+
 ## Vagrant based
 
 Older projects are developed on top of infra created for the project. Infra

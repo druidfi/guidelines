@@ -2,9 +2,12 @@
 
 See Drush [homepage](http://www.drush.org/) for more information.
 
-Latest stable versions are 8.1.18 and 9.5.2 (Dec 8th 2018).
+Latest stable versions are 8.1.18 and 9.5.2 (Feb 5th 2019).
 
-Note: We recommend using 8.1.15 or newer.
+## Notes
+
+- We recommend you use Drush in your Docker containers
+- We recommend using Drush 9 for new projects.
 
 ## Requirements
 
