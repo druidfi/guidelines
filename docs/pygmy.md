@@ -6,7 +6,7 @@ See Pygmy [homepage](https://docs.amazee.io/local_docker_development/pygmy.html)
 
 ## Requirements
 
-- Docker (Linux) or [Docker for Mac](docker_for_mac.md) (OSX/macOS)
+- [Docker](docker.md)
 - `docker-compose.yml` file in your site repository
 
 ## Install 

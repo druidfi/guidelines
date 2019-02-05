@@ -2,28 +2,23 @@
 
 See Docker [homepage](https://www.docker.com/) for more information.
 
-- NOTE! [Docker for Mac](docker_for_mac.md) is recommended
-- NOTE! Don't use [Docker for Mac](docker_for_mac.md) at the same time!
-
-## Requirements
-
-- Virtualization software like [VMWare Fusion](vmware_fusion.md)
-
 ## Install
 
-OSX/macOS using [Brew](brew.md)
+### OSX/macOS
+
+Install Docker for Mac using [Brew](brew.md)
 
 ```
-$ brew install docker docker-compose docker-machine
+$ brew cask install docker
 ```
 
-## Create the default machine
+Or download Docker for Mac manually [here](https://download.docker.com/mac/stable/Docker.dmg).
 
-Create the default VM with [VMWare Fusion](vmware_fusion.md) driver
+### Linux
 
-```
-$ docker-machine create default -d vmwarefusion && eval $(docker-machine env default)
-```
+There are different installation steps for different Linux distributions.
+
+See this guide for some general ones: https://runnable.com/docker/install-docker-on-linux
 
 ## Commandline
 
