@@ -2,7 +2,7 @@
 
 Pygmy uses Docker with dnsmasq and ssh-agent containers to easily setup local development environment.
 
-See Pygmy [homepage](https://docs.amazee.io/local_docker_development/pygmy.html) for more information.
+See Pygmy [homepage](https://pygmy.readthedocs.io) for more information.
 
 ## Requirements
 
@@ -23,6 +23,12 @@ Start Pygmy and related services
 
 ```
 $ pygmy up
+```
+
+### On Ubuntu
+
+```
+$ pygmy up --no-resolver
 ```
 
 ## Add your SSH key (if using Amazee.io servers)
