@@ -2,7 +2,7 @@
 
 See Yarn [homepage](https://yarnpkg.com/) for more information.
 
-Latest version is 1.3.2 (Dec 7th 2017).
+Latest version is 1.16.0 (Apr 12th 2020).
 
 ## Install
 

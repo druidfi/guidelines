@@ -16,7 +16,7 @@ Read also about [Local development environment](https://github.com/druidfi/guide
 ## Testing
 
 - Latest features
-- Deployed automatically on each merge (MISSING)
+- Deployed automatically on each merge
 - Customer project team can access and test functionality
 
 ## Staging

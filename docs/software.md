@@ -7,7 +7,7 @@ Check individual pages for detailed information and instructions:
 - [Composer](composer.md)
 - [Docker](docker.md)
 - [Drush](drush.md)
-- [Pygmy](pygmy.md)
+- [Pygmy](pygmy.md) - EOL
 - [Vagrant](vagrant.md)
 - [VMWare Fusion](vmware_fusion.md)
 - [Yarn](yarn.md)

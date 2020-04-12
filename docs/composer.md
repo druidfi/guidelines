@@ -2,7 +2,7 @@
 
 Composer is a dependency manager for PHP. See Composer [homepage](https://getcomposer.org/) for more information.
 
-Latest stable version is 1.8.3 (Feb 5th 2019).
+Latest stable version is 1.10.5 (Apr 12th 2020).
 
 ## Notes
 

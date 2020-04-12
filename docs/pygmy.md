@@ -1,4 +1,4 @@
-# Pygmy
+# Pygmy (EOL)
 
 Pygmy uses Docker with dnsmasq and ssh-agent containers to easily setup local development environment.
 

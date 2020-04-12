@@ -2,19 +2,19 @@
 
 See Drush [homepage](http://www.drush.org/) for more information.
 
-Latest stable versions are 8.1.18 and 9.5.2 (Feb 5th 2019).
+Latest stable versions are 8.1.32 and 10.2.2 (Apr 12th 2020).
 
 ## Notes
 
 - We recommend you use Drush in your Docker containers
-- We recommend using Drush 9 for new projects.
+- We recommend using Drush 10 for new projects (comes with Spell).
 
 ## Requirements
 
 - PHP
 - [Composer](composer.md)
 
-## Install
+## Global install
 
 Install Drush with Composer:
 

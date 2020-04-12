@@ -4,8 +4,8 @@ Various guidelines related to technical work
 
 ## Local development environments
 
-- [Pygmy](docs/pygmy.md) - Amazee.io specific Docker toolset for Drupal projects.
 - [StoneHenge](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
+- [Pygmy](docs/pygmy.md) - EOL. Amazee.io specific Docker toolset for Drupal projects.
 
 See general notes about [local development environment](docs/local_dev_env.md). Also check [terminology](docs/environments.md)
 for the different environments.
@@ -18,25 +18,20 @@ See [list of software](docs/software.md) used and instructions.
 
 ## Project tools and templates
 
-- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 8 project
+- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 8 project from template
+- [Docker images](https://github.com/druidfi/docker-images) - General use Docker images for projects
+- [druidfi/omen](https://github.com/druidfi/omen) - Drupal 8+ configurator. Detects env related configuration and sets them for you.
+- [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8 toolset for every project
 
-Create a new Drupal 8 project:
+## Continuous Delivery (CD) or GitOps
 
-```
-$ composer create-project druidfi/spell:dev-master <project-path> --no-interaction
-```
-
-- [Mona](https://github.com/druidfi/mona) - Drupal 7 project template with Composer
-- [Ansible based infra template](https://github.com/druidfi/ansible-project-infra-template) (private)
-
-## Continuous Delivery (CD)
-
-Git based Continuous Delivery solutions
+Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
 - [Amazee.io Legacy](https://docs.amazee.io/automated_deployments.html)
 - [Buddy](docs/buddy.md)
 - Stonehenge Server (TODO)
+- Wodby (TODO)
 
 ## Technical tutorials
 

@@ -2,7 +2,7 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Latest version is 2.7.6 (Feb 5th 2019).
+Latest version is 2.9.6 (Apr 12th 2020).
 
 ## Install
 
@@ -16,7 +16,7 @@ Option 2 (Mac & Linux): install using pip
 
 ```
 $ easy_install pip
-$ pip install ansible==2.4.1.0
+$ pip install ansible==2.9.6.0
 ```
 
 ## Install Ansible Galaxy roles

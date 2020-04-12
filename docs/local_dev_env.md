@@ -1,30 +1,22 @@
 # Local development environment
 
-## Docker based (recommended)
+By default we use Docker based local development environment.
 
-When ever possible, we prefer Docker based local development.
+## Requirements
+
+- [Docker](docker.md)
+- [Stonehenge](https://github.com/druidfi/stonehenge)
 
 For sites hosted on Amazee.io, there is additional information [here](https://docs.amazee.io/).
 
-### Requirements
+## Setup workflow
 
-- [Docker](docker.md)
-- [Pygmy](pygmy.md) (for Amazee.io powered projects)
-- [Stonehenge](https://github.com/druidfi/stonehenge)
-
-Tips for Docker
-
-- [Docker tips](docker-tips.md)
-
-### Setup workflow
-
-- Start [Pygmy](pygmy.md) or [Stonehenge](https://github.com/druidfi/stonehenge)
+- Start [Stonehenge](https://github.com/druidfi/stonehenge)
 - Clone project repository
-- Build the codebase
-- Start Docker environment with
+- Start Docker environment with `make fresh`
 - Develop
 
-### Switch between Pygmy and Stonehenge
+## Switch between Pygmy and Stonehenge
 
 As both tools are listening to same ports, they cannot be running at the same time.
 
@@ -36,25 +28,6 @@ $ pygmy stop && stonehenge up
 
 And vice versa.
 
-## Vagrant based
+## Links
 
-Older projects are developed on top of infra created for the project. Infra
-repositories have Vagrant configuration with Ansible based provision.
-
-### Requirements
-
-- [Ansible](ansible.md)
-- [Vagrant](vagrant.md)
-- [VMWare Fusion](vmware_fusion.md) or Virtualbox
-- Access to project infra repository
-- Access to project repository
-
-### Setup workflow
-
-- Clone infra repository
-- Clone project repository
-- Build the codebase
-- Create Vagrant machine with `vagrant up` (this will also provision it)
-- Get database and files and put in place
-- Put IP address to /etc/hosts
-- Develop
+- [Docker tips](docker-tips.md)
