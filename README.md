@@ -27,7 +27,6 @@ See [list of software](docs/software.md) used and instructions.
 Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
-- [Amazee.io Legacy](https://docs.amazee.io/automated_deployments.html)
 - [Buddy](docs/buddy.md)
 - Stonehenge Server (TODO)
 - Wodby (TODO)
