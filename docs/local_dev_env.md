@@ -16,18 +16,6 @@ For sites hosted on Amazee.io, there is additional information [here](https://do
 - Start Docker environment with `make fresh`
 - Develop
 
-## Switch between Pygmy and Stonehenge
-
-As both tools are listening to same ports, they cannot be running at the same time.
-
-To switch to another, you need to stop the other:
-
-```
-$ pygmy stop && stonehenge up
-```
-
-And vice versa.
-
 ## Links
 
 - [Docker tips](docker-tips.md)
