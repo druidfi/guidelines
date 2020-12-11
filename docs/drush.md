@@ -2,36 +2,31 @@
 
 See Drush [homepage](http://www.drush.org/) for more information.
 
-Latest stable versions are 8.1.32 and 10.2.2 (Apr 12th 2020).
+Latest stable versions are (Dec 11th 2020):
 
-## Notes
-
-- We recommend you use Drush in your Docker containers
-- We recommend using Drush 10 for new projects (comes with Spell).
+- 8.4.5 for Drupal 7 
+- 10.3.6 for Drupal 8+
 
 ## Requirements
 
-- PHP
-- [Composer](composer.md)
+- Environment with PHP and Composer e.g. Docker container
 
-## Global install
+## Install to project
 
 Install Drush with Composer:
 
 ```
-$ composer global require drush/drush
+$ composer req drush/drush
 ```
 
-Now you should be able to call Drush everywhere:
+## Tips
+
+Drush has many dependencies so sometimes if might block e.g. updating Drupal core.
+
+In that case you can do this:
 
 ```
-$ drush version
-```
-
-## Update
-
-You can update Drush with Composer:
-
-```
-$ composer global update
+$ composer remove drush/drush
+$ composer update -W "drupal/core-*"
+$ composer req drush/drush
 ```
