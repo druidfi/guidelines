@@ -20,7 +20,7 @@ See [list of software](docs/software.md) used and instructions.
 - [Spell](https://github.com/druidfi/spell) - Create a new Drupal 8 project from template
 - [Docker images](https://github.com/druidfi/docker-images) - General use Docker images for projects
 - [druidfi/omen](https://github.com/druidfi/omen) - Drupal 8+ configurator. Detects env related configuration and sets them for you.
-- [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8 toolset for every project
+- [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8, Symfony & WordPress toolset for every project
 
 ## Continuous Delivery (CD) or GitOps
 
@@ -29,7 +29,7 @@ Git based Continuous Delivery solutions we use:
 - [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
 - [Buddy](docs/buddy.md)
 - Stonehenge Server (TODO)
-- Wodby (TODO)
+- [Wodby](https://wodby.com/docs/)
 
 ## Technical tutorials
 

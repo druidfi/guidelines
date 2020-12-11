@@ -3,7 +3,7 @@
 Check individual pages for detailed information and instructions:
 
 - [Ansible](ansible.md)
-- [Brew](brew.md) - Mac only
+- [Brew](brew.md) - macOS only
 - [Composer](composer.md)
 - [Docker](docker.md)
 - [Drush](drush.md)
