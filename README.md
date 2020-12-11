@@ -5,9 +5,8 @@ Various guidelines related to technical work
 ## Local development environments
 
 - [StoneHenge](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
-
-See general notes about [local development environment](docs/local_dev_env.md). Also check [terminology](docs/environments.md)
-for the different environments.
+- General notes about [local development environment](docs/local_dev_env.md)
+- [terminology](docs/environments.md) for the different environments
 
 ## Software and tools
 
