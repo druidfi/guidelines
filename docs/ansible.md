@@ -2,7 +2,7 @@
 
 See Ansible [GitHub-page](https://github.com/ansible/ansible) for more information.
 
-Latest version is 2.9.6 (Apr 12th 2020).
+Latest version is 2.10.3 (Dec 11th 2020).
 
 ## Install
 
