@@ -11,7 +11,7 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 Install Brew
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Install Ruby
@@ -20,7 +20,7 @@ Install Ruby
 $ brew install ruby
 ```
 
-Install PHP 7.4.x
+Install PHP
 
 ```
 $ brew install php

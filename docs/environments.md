@@ -10,7 +10,7 @@ Read also about [Local development environment](https://github.com/druidfi/guide
 
 ## CI
 
-- Automated testing environment (e.g. Travis.ci)
+- Automated testing environment (e.g. Github Actions, Gitlab CI or Travis.ci)
 - For running tests and other integrity checks against the project build
 
 ## Testing
@@ -22,7 +22,7 @@ Read also about [Local development environment](https://github.com/druidfi/guide
 ## Staging
 
 - Latest release candidate
-- Identical server environment as in Production
+- Identical environment as in Production
 
 ## Production
 
