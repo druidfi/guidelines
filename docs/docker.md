@@ -33,9 +33,3 @@ Check Docker containers
 ```
 $ docker ps
 ```
-
-Get docker machine IP
-
-```
-$ docker-machine ip
-```
