@@ -1,6 +1,6 @@
 # Brew
 
-See Brew [homepage](http://brew.sh/) for more information.
+See Brew [homepage](https://brew.sh/) for more information.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ See Brew [homepage](http://brew.sh/) for more information.
 Install Brew using their script:
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Note: don't use `sudo` to install Brew
@@ -27,7 +27,7 @@ $ brew install ansible
 You can install certain version with:
 
 ```
-$ brew install ansible@2.1
+$ brew install ansible@2.10
 ```
 
 Or using Git commits (get raw file url):
@@ -42,13 +42,21 @@ $ brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/a6421693
 Fetch the newest version of Homebrew and all formulae: 
 
 ```
-$ brew update
+$ brew update && brew outdated
 ```
 
 Upgrade outdated, unpinned brews: 
 
 ```
-$ brew upgrade
+$ brew upgrade && brew cleanup
+```
+
+You can create aliases for updates:
+
+```
+alias bubo='brew update && brew outdated'
+alias bubc='brew upgrade && brew cleanup'
+alias bubu='bubo && bubc'
 ```
 
 ## Check your system for potential problems
