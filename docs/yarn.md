@@ -2,7 +2,7 @@
 
 See Yarn [homepage](https://yarnpkg.com/) for more information.
 
-Latest version is 1.16.0 (Apr 12th 2020).
+Latest version is 1.22.10 (Dec 11th 2020).
 
 ## Install
 
@@ -17,3 +17,17 @@ $ brew install yarn
 ### Linux
 
 See instructions for different distros: https://yarnpkg.com/en/docs/install#linux-tab
+
+## How to use
+
+Install packages using lockfile:
+
+```
+$ yarn install --frozen-lockfile
+```
+
+Add a package with version constraint:
+
+```
+$ yarn add webpack-cli@^4
+```
