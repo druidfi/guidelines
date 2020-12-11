@@ -4,11 +4,9 @@ Here are some general guidelines and policies concerning GDPR regulation on our 
 
 ## Reporting breaches
 
-TODO
-
 - Report under 72 hours
 - [Look here for instructions for reporting](https://docs.google.com/document/d/19403BHhjexKBGndA5Q1TJhrB0JqCWwCTcmCjQNr0aUw)
-- If hosting is from Amazee, inform Amazee on their Slack channel
+- If hosting is from Amazee, inform them on their Slack channel
 
 ## Privacy Impact Assessment (PIA)
 
@@ -29,19 +27,15 @@ Syncing a database from production or staging environments, the personal data sh
 ### Drupal specific notes
 
 - When possible, we use Faker/Seeder solution to create dummy content on local and not use production data at all
-- We use GDPR-module: https://www.drupal.org/project/gdpr (it has a feature for sanitizing data on the
-source)
 - Original `drush sql-dump` command includes sanitize flag which sanitizes a few user fields and e.g. removes Webform
 submissions if installed. NOTE: sanitizing happens on target machine which is a problem.
 
 ## Backups
 
-TODO
-
-Some general recommendations:
+If creating custom backups solution, here are some general recommendations:
 
 - Encrypt backups
-- Store backups remotely
+- Store backups remotely (off-site)
 - Limit access to backups
 - Don't store backups longer than needed (create automatic rules to purge old backups)
 

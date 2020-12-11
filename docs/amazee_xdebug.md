@@ -14,7 +14,6 @@ How to configure Xdebug when using Docker and amazee.io.
 - Xdebug helper plugin for your favorite browser.
     - Chrome extension "Xdebug helper" is used in this example.
 
-
 ## How to configure PhpStorm
 
 1. Open your project in PhpStorm and enable "Break at first line in PHP scripts"
