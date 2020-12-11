@@ -41,3 +41,4 @@ Git based Continuous Delivery solutions we use:
 
 - [GDPR guidelines](docs/gdpr.md)
 - Developing on Linux (TODO)
+- Developing on Windows and WSL2 (TODO)
