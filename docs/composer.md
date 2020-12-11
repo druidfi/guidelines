@@ -2,11 +2,7 @@
 
 Composer is a dependency manager for PHP. See Composer [homepage](https://getcomposer.org/) for more information.
 
-Latest stable version is 1.10.5 (Apr 12th 2020).
-
-## Notes
-
-- We recommend you use Composer in your Docker containers
+Latest stable version is 2.0.8 (Dec 11th 2020).
 
 ## Requirements
 
@@ -38,10 +34,10 @@ Composer can be updated with:
 $ composer self-update
 ```
 
-## Plugins
+## Downgrade to v1
 
-Composer plugin hirak/prestissimo to speed up downloads:
+Composer can be downgraded to version 1 with:
 
 ```
-$ composer global require hirak/prestissimo
+$ composer self-update --1
 ```
