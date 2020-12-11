@@ -11,9 +11,8 @@ for the different environments.
 
 ## Software and tools
 
-See [list of software](docs/software.md) used and instructions.
-
-- [macOS scripts for software](docs/macos_scripts.md)
+- [list of software](docs/software.md) used and instructions
+- macOS [scripts](docs/macos_scripts.md) for installing software
 
 ## Project tools and templates
 
