@@ -5,10 +5,11 @@ main () {
 
   check_requirements
   ARCH=$(arch)
+  OS=$(uname -s | tr '[:upper:]' '[:lower:]')
   REPO="druidfi/cli"
   BINARY="druid-cli"
   WRAPPER="/usr/local/bin/$BINARY"
-  DOWNLOAD_BINARY="druid-cli-v1.0.0-darwin-$ARCH"
+  DOWNLOAD_BINARY="druid-cli-$OS-$ARCH"
 
   info "Download latest Druid CLI from GitHub"
 
