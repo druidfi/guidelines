@@ -5,26 +5,21 @@ main () {
 
   check_requirements
   ARCH=$(arch)
-  IMAGE=druidfi/cli
-  ARTIFACT="druid-cli-image.$ARCH.tar.gz"
-  WRAPPER=/usr/local/bin/druid-cli
+  REPO="druidfi/cli"
+  BINARY="druid-cli"
+  WRAPPER="/usr/local/bin/$BINARY"
+  DOWNLOAD_BINARY="druid-cli-v1.0.0-darwin-$ARCH"
 
-  info "Download latest Druid CLI image from GitHub"
-  rm -f "/tmp/$ARTIFACT" && gh release download -p "*.$ARCH.tar.gz" --repo "$IMAGE" --dir /tmp
+  info "Download latest Druid CLI from GitHub"
 
-  ! test -f "/tmp/$ARTIFACT" && error "File does not exist"
+  gh release download latest-beta -p "$DOWNLOAD_BINARY" --repo "$REPO" --dir /tmp
 
-  info "Remove old image"
-  docker rmi -f "$IMAGE"
+  ! test -f "/tmp/$DOWNLOAD_BINARY" && error "File does not exist" && exit 1
 
-  info "Load image"
-  docker load < "/tmp/$ARTIFACT" && rm -f "/tmp/$ARTIFACT"
+  chmod +x "/tmp/$DOWNLOAD_BINARY"
+  sudo mv "/tmp/$DOWNLOAD_BINARY" "$WRAPPER"
 
-  info "Set wrapper in $WRAPPER"
-  docker run --rm "$IMAGE" wrapper > /tmp/druid-cli && chmod +x /tmp/druid-cli
-  sudo mv /tmp/druid-cli "$WRAPPER"
-
-  info "Test wrapper"
+  info "Test Druid CLI"
   druid-cli check
 
   success "Done! Now you can use 'druid-cli' command!"
@@ -53,10 +48,6 @@ arch () {
 }
 
 check_requirements () {
-  if [ "$(which docker && echo "yes" || echo "no")" == "no" ]; then
-    error "Docker is needed but not found. Get it from https://docs.docker.com/get-docker/" && exit 1
-  fi
-
   if [ "$(which gh && echo "yes" || echo "no")" == "no" ]; then
     error "GitHub CLI is needed but not found. Get it from https://cli.github.com/" && exit 1
   fi
