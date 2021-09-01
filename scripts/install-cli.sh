@@ -12,7 +12,7 @@ main () {
 
   info "Download latest Druid CLI from GitHub"
 
-  gh release download latest-beta -p "$DOWNLOAD_BINARY" --repo "$REPO" --dir /tmp
+  gh release download latest -p "$DOWNLOAD_BINARY" --repo "$REPO" --dir /tmp
 
   ! test -f "/tmp/$DOWNLOAD_BINARY" && error "File does not exist" && exit 1
 
