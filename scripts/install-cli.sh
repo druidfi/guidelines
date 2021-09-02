@@ -13,6 +13,7 @@ main () {
 
   info "Download latest Druid CLI from GitHub"
 
+  rm -f "/tmp/$DOWNLOAD_BINARY"
   gh release download latest -p "$DOWNLOAD_BINARY" --repo "$REPO" --dir /tmp
 
   ! test -f "/tmp/$DOWNLOAD_BINARY" && error "File does not exist" && exit 1
@@ -44,8 +45,14 @@ error () {
 }
 
 arch () {
-  if [[ "$(uname -m)" =~ ^(aarch64|arm64|armv8)$ ]]; then echo "arm64";
-  else echo "amd64"; fi
+  architecture=""
+  case $(uname -m) in
+      i386)   architecture="386" ;;
+      i686)   architecture="386" ;;
+      x86_64) architecture="amd64" ;;
+      arm)    dpkg --print-architecture | grep -q "arm64" && architecture="arm64" || architecture="arm" ;;
+  esac
+  echo "$architecture"
 }
 
 check_requirements () {
