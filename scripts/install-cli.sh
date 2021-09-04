@@ -11,7 +11,7 @@ main () {
   WRAPPER="/usr/local/bin/$BINARY"
   DOWNLOAD_BINARY="druid-cli-$OS-$ARCH"
 
-  info "Download latest Druid CLI from GitHub"
+  info "Download latest Druid CLI from GitHub: $DOWNLOAD_BINARY"
 
   rm -f "/tmp/$DOWNLOAD_BINARY"
   gh release download latest -p "$DOWNLOAD_BINARY" --repo "$REPO" --dir /tmp
@@ -50,7 +50,7 @@ arch () {
       i386)   architecture="386" ;;
       i686)   architecture="386" ;;
       x86_64) architecture="amd64" ;;
-      arm)    dpkg --print-architecture | grep -q "arm64" && architecture="arm64" || architecture="arm" ;;
+      arm64)  architecture="arm64" ;;
   esac
   echo "$architecture"
 }
