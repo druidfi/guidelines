@@ -12,7 +12,7 @@ Check individual pages for detailed information and instructions:
 | [Drush](drush.md) | PHP | Composer
 | [GitHub CLI](https://cli.github.com/) | | Brew
 | [iTerm2](https://iterm2.com/) | macOS | Brew
-| mkcert | | Brew
+| [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
 | PHP | | Brew
 | node | | nvm
 | [nvm](https://github.com/nvm-sh/nvm) | | oneliner
