@@ -16,7 +16,7 @@ Various guidelines related to technical work
 
 ## Project tools and templates
 
-- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 8 project from template
+- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 9 project from template
 - [Docker images](https://github.com/druidfi/docker-images) - General use Docker images for projects
 - [druidfi/omen](https://github.com/druidfi/omen) - Drupal 8+ configurator. Detects env related configuration and sets them for you.
 - [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8/9, Symfony & WordPress toolset for every project
@@ -27,7 +27,6 @@ Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
 - [Buddy](docs/buddy.md)
-- Stonehenge Server (TODO)
 - [Wodby](https://wodby.com/docs/)
 
 ## Technical tutorials
