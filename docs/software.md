@@ -15,7 +15,7 @@ Check individual pages for detailed information and instructions:
 | [httpie](https://httpie.io/) | | Brew
 | [iTerm2](https://iterm2.com/) | macOS | Brew
 | [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
-| PHP | | Brew
+| [PHP](https://www.php.net/) | | Brew
 | Node | | nvm
 | [nvm](https://github.com/nvm-sh/nvm) | | Brew/oneliner
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
