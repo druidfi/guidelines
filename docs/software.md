@@ -16,6 +16,6 @@ Check individual pages for detailed information and instructions:
 | node | | nvm
 | [nvm](https://github.com/nvm-sh/nvm) | | oneliner
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
-| [Vagrant](vagrant.md) | Virtualbox|VMWare Fusion | Use Docker instead
+| [Vagrant](vagrant.md) | Virtualbox/VMWare Fusion | Brew | Use Docker instead
 | [VMWare Fusion](vmware_fusion.md) | | License needed
 | [Yarn](yarn.md)
