@@ -9,7 +9,7 @@ Check individual pages for detailed information and instructions:
 | [Composer](composer.md) | PHP
 | [Docker](docker.md) | | Brew/installer
 | Druid CLI | Github CLI | oneliner
-| [Drush](drush.md) | PHP | Composer
+| [Drush](drush.md) | PHP | Composer | Installed in projects
 | [GitHub CLI](https://cli.github.com/) | | Brew
 | [iTerm2](https://iterm2.com/) | macOS | Brew
 | [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
