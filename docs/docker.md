@@ -4,7 +4,7 @@ See Docker [homepage](https://www.docker.com/) for more information.
 
 ## Install
 
-### OSX/macOS
+### macOS
 
 Install Docker for Mac using [Brew](brew.md)
 
