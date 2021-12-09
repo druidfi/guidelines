@@ -11,6 +11,9 @@ Check individual pages for detailed information and instructions:
 | Druid CLI | Github CLI
 | [Drush](drush.md) | PHP
 | [GitHub CLI](https://cli.github.com/)
+| mkcert
+| node
+| nvm
 | [Stonehenge](https://github.com/druidfi/stonehenge)
 | [Vagrant](vagrant.md) | | Use Docker instead
 | [VMWare Fusion](vmware_fusion.md) | | License needed
