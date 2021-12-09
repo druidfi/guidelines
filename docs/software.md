@@ -9,6 +9,6 @@ Check individual pages for detailed information and instructions:
 | [Composer](composer.md) | | | | PHP |
 | [Docker](docker.md) | | | |
 | [Drush](drush.md) | | | |
-| [Vagrant](vagrant.md) | | | | Use Docker instead |
+| [Vagrant](vagrant.md) | | | | | | Use Docker instead
 | [VMWare Fusion](vmware_fusion.md) | | | | License needed |
 | [Yarn](yarn.md) | | | |
