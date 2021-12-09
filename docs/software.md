@@ -12,6 +12,7 @@ Check individual pages for detailed information and instructions:
 | [Drush](drush.md) | PHP
 | [GitHub CLI](https://cli.github.com/)
 | mkcert
+| PHP | | Brew
 | node
 | nvm
 | [Stonehenge](https://github.com/druidfi/stonehenge)
