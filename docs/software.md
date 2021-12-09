@@ -11,7 +11,7 @@ Check individual pages for detailed information and instructions:
 | Druid CLI | Github CLI
 | [Drush](drush.md) | PHP
 | [GitHub CLI](https://cli.github.com/)
-| mkcert
+| mkcert | | Brew
 | PHP | | Brew
 | node
 | nvm
