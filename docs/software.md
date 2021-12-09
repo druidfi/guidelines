@@ -5,7 +5,7 @@ Check individual pages for detailed information and instructions:
 | Name | Requirements | Install with | Notes |
 |------|--------------|--------------|-------|
 | [Ansible](ansible.md) | | Brew
-| [Brew](brew.md) | macOS | oneliner
+| [Brew](brew.md) | macOS,Xcode | oneliner
 | [Composer](composer.md) | PHP
 | [Docker](docker.md) | | Brew/installer
 | Druid CLI | Github CLI | oneliner
@@ -17,5 +17,5 @@ Check individual pages for detailed information and instructions:
 | [nvm](https://github.com/nvm-sh/nvm) | | oneliner
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
 | [Vagrant](vagrant.md) | Virtualbox/VMWare Fusion | Brew | Use Docker instead
-| [VMWare Fusion](vmware_fusion.md) | | License needed
+| [VMWare Fusion](vmware_fusion.md) | Brew/installer | License needed
 | [Yarn](yarn.md)
