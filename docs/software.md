@@ -5,7 +5,7 @@ Check individual pages for detailed information and instructions:
 | Name | Mac | Linux | Windows| Notes |
 |------|-----|-------|--------|-------|
 | [Ansible](ansible.md) | * | * | * |
-| [Brew](brew.md) | * | * | * |
+| [Brew](brew.md) | x | | |
 | [Composer](composer.md) | * | * | * |
 | [Docker](docker.md) | * | * | * |
 | [Drush](drush.md) | * | * | * |
