@@ -14,9 +14,9 @@ Check individual pages for detailed information and instructions:
 | [iTerm2](https://iterm2.com/) | macOS | Brew
 | [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
 | PHP | | Brew
-| node | | nvm
+| Node | | nvm
 | [nvm](https://github.com/nvm-sh/nvm) | | oneliner
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
 | [Vagrant](vagrant.md) | Virtualbox/VMWare Fusion | Brew | Use Docker instead
-| [VMWare Fusion](vmware_fusion.md) | Brew/installer | License needed
-| [Yarn](yarn.md)
+| [VMWare Fusion](vmware_fusion.md) | | Brew/installer | License needed
+| [Yarn](yarn.md) | Node
