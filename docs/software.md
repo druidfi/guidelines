@@ -8,7 +8,7 @@ Check individual pages for detailed information and instructions:
 | [Brew](brew.md) | x | | |
 | [Composer](composer.md) | | | | PHP |
 | [Docker](docker.md) | | | |
-| [Druid CLI] | | | | Github CLI
+| Druid CLI | | | | Github CLI |
 | [Drush](drush.md) | | | | PHP |
 | [GitHub CLI](https://cli.github.com/)
 | [Stonehenge](https://github.com/druidfi/stonehenge)
