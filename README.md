@@ -5,6 +5,7 @@ Various guidelines related to technical work
 ## Local development environments
 
 - [Druid CLI](https://github.com/druidfi/cli) - Druid internal CLI tool (private)
+- [GitHub CLI](https://cli.github.com/) and authenticated with `gh auth login` to interact with Github repositories
 - [Stonehenge](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
 - General notes about [local development environment](docs/local_dev_env.md)
 - [terminology](docs/environments.md) for the different environments
