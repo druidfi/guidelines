@@ -15,7 +15,7 @@ Check individual pages for detailed information and instructions:
 | [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
 | PHP | | Brew
 | Node | | nvm
-| [nvm](https://github.com/nvm-sh/nvm) | | oneliner
+| [nvm](https://github.com/nvm-sh/nvm) | | Brew/oneliner
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
 | [Vagrant](vagrant.md) | Virtualbox/VMWare Fusion | Brew | Use Docker instead
 | [VMWare Fusion](vmware_fusion.md) | | Brew/installer | License needed
