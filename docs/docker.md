@@ -9,10 +9,13 @@ See Docker [homepage](https://www.docker.com/) for more information.
 Install Docker for Mac using [Brew](brew.md)
 
 ```
-$ brew cask install docker
+brew cask install docker
 ```
 
-Or download Docker for Mac manually [here](https://download.docker.com/mac/stable/Docker.dmg).
+Or download Docker for Mac manually for:
+
+- [Mac with Intel chip](https://desktop.docker.com/mac/main/amd64/Docker.dmg)
+- [Mac with Apple chip](https://desktop.docker.com/mac/main/arm64/Docker.dmg)
 
 ### Linux
 
@@ -25,11 +28,11 @@ See this guide for some general ones: https://runnable.com/docker/install-docker
 Check Docker version
 
 ```
-$ docker version
+docker version
 ```
 
 Check Docker containers
 
 ```
-$ docker ps
+docker ps
 ```
