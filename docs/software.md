@@ -2,11 +2,11 @@
 
 Check individual pages for detailed information and instructions:
 
-| Name | Mac | Linux | Windows| Notes |
-|------|-----|-------|--------|-------|
+| Name | Mac | Linux | Windows| Requirements | Notes |
+|------|-----|-------|--------|--------------|-------|
 | [Ansible](ansible.md) | | | |
 | [Brew](brew.md) | x | | |
-| [Composer](composer.md) | | | |
+| [Composer](composer.md) | | | | PHP |
 | [Docker](docker.md) | | | |
 | [Drush](drush.md) | | | |
 | [Vagrant](vagrant.md) | | | | Use Docker instead |
