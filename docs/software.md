@@ -8,14 +8,14 @@ Check individual pages for detailed information and instructions:
 | [Brew](brew.md) | macOS | oneliner
 | [Composer](composer.md) | PHP
 | [Docker](docker.md) | | Brew/installer
-| Druid CLI | Github CLI | Oneliner
+| Druid CLI | Github CLI | oneliner
 | [Drush](drush.md) | PHP | Composer
 | [GitHub CLI](https://cli.github.com/) | | Brew
 | mkcert | | Brew
 | PHP | | Brew
 | node | | nvm
-| [nvm](https://github.com/nvm-sh/nvm) | | Oneliner
-| [Stonehenge](https://github.com/druidfi/stonehenge)
+| [nvm](https://github.com/nvm-sh/nvm) | | oneliner
+| [Stonehenge](https://github.com/druidfi/stonehenge) | Docker | oneliner
 | [Vagrant](vagrant.md) | | Use Docker instead
 | [VMWare Fusion](vmware_fusion.md) | | License needed
 | [Yarn](yarn.md)
