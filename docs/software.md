@@ -8,9 +8,11 @@ Check individual pages for detailed information and instructions:
 | [Brew](brew.md) | macOS,Xcode | oneliner
 | [Composer](composer.md) | PHP
 | [Docker](docker.md) | | Brew/installer
+| doctl | | Brew
 | Druid CLI | Github CLI | oneliner
 | [Drush](drush.md) | PHP | Composer | Installed in projects
 | [GitHub CLI](https://cli.github.com/) | | Brew
+| [httpie](https://httpie.io/) | | Brew
 | [iTerm2](https://iterm2.com/) | macOS | Brew
 | [mkcert](https://github.com/FiloSottile/mkcert) | | Brew
 | PHP | | Brew
