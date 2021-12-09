@@ -9,7 +9,7 @@ See Docker [homepage](https://www.docker.com/) for more information.
 Install Docker for Mac using [Brew](brew.md)
 
 ```
-brew cask install docker
+brew install --cask docker
 ```
 
 Or download Docker for Mac manually for:
