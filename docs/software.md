@@ -1,4 +1,4 @@
-# Software
+# Software used and recommended by Druids
 
 Check individual pages for detailed information and instructions:
 
