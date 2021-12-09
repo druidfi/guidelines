@@ -11,7 +11,7 @@ Check individual pages for detailed information and instructions:
 | Druid CLI | Github CLI | oneliner
 | [Drush](drush.md) | PHP | Composer
 | [GitHub CLI](https://cli.github.com/) | | Brew
-[ iTerm2 | macOS | Brew
+| [iTerm2](https://iterm2.com/) | macOS | Brew
 | mkcert | | Brew
 | PHP | | Brew
 | node | | nvm
