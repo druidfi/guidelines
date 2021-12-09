@@ -7,6 +7,6 @@ Check individual pages for detailed information and instructions:
 - [Composer](composer.md)
 - [Docker](docker.md)
 - [Drush](drush.md)
-- [Vagrant](vagrant.md)
+- [Vagrant](vagrant.md) - Old ways, use Docker
 - [VMWare Fusion](vmware_fusion.md)
 - [Yarn](yarn.md)
