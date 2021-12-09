@@ -4,11 +4,11 @@ Check individual pages for detailed information and instructions:
 
 | Name | Mac | Linux | Windows| Notes |
 |------|-----|-------|--------|-------|
-| [Ansible](ansible.md) | * | * | * |
+| [Ansible](ansible.md) | | | |
 | [Brew](brew.md) | x | | |
-| [Composer](composer.md) | * | * | * |
-| [Docker](docker.md) | * | * | * |
-| [Drush](drush.md) | * | * | * |
-| [Vagrant](vagrant.md) | * | * | * |
-| [VMWare Fusion](vmware_fusion.md) | * | * | * |
-| [Yarn](yarn.md) | * | * | * |
+| [Composer](composer.md) | | | |
+| [Docker](docker.md) | | | |
+| [Drush](drush.md) | | | |
+| [Vagrant](vagrant.md) | | | Use Docker instead |
+| [VMWare Fusion](vmware_fusion.md) | | | License needed |
+| [Yarn](yarn.md) | | | |
