@@ -13,11 +13,13 @@ First, please evaluate what is the actual need for sending emails in a Drupal si
 
 - In Lagoon we can use "SMTP relay" technique as a transport
 
+![Lagoon SMTP settings](../media/lagoon_smtp.png)
+
 ## Wodby
 
 - In Lagoon we can use "SMTP relay" technique as a transport
 
-![Break at first line in PHP scripts](../media/wodby_smtp.png)
+![Wodby SMTP settings](../media/wodby_smtp.png)
 
 ## Custom
 
