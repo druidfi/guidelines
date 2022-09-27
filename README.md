@@ -28,7 +28,7 @@ Various guidelines related to technical work
 Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
-- [Buddy](docs/buddy.md)
+- Github Actions
 - [Wodby](https://wodby.com/docs/)
 
 ## Technical tutorials
