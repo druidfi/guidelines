@@ -34,9 +34,11 @@ Git based Continuous Delivery solutions we use:
 ## Technical tutorials
 
 - [Drupal and emails](docs/drupal_emails.md)
+- [Drupal and stage_file_proxy](docs/drupal_stage_file_proxy.md)
 - [Let's Encrypt and Certbox](docs/letsencrypt.md)
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
+- [How to setup Xdebug for VSCode](docs/vscode_xdebug.md)
 - [How to setup CloudFront CDN for Drupal 8 site](docs/cdn_drupal8.md)
 - [Using SMTP & SendGrid](docs/sendgrid.md)
 
