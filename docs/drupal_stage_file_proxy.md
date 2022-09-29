@@ -4,6 +4,10 @@ Stage File Proxy lets you update the database of your local development instance
 
 See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) for more information.
 
+## Requirements
+
+- Drush 10
+
 ## How to setup Stage File Proxy
 
 1. Install the module via composer
@@ -11,29 +15,13 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
     composer require drupal/stage_file_proxy --dev
     ```
 
-2.  Make sure your make files are up to date, in the project's root directory, run
-    ``` zsh
-    make self-update
-    ```
-
-3.  Add configurations for the module to development environment. Modify (or create) `public/sites/default/dev.settings.php` and add
+2.  Add configurations for the module to development environment. Modify (or create) `public/sites/default/dev.settings.php` and add
     ``` php
+    // Stage file proxy origin - no trailing slash.
     $config['stage_file_proxy.settings']['origin'] = 'https://url-to-production.fi';
     ```
 
-4.  Add --skip-module on cim and cex. Modify (or create) `public/sites/default/drushrc.php` and add
-
-    ``` php
-    <?php
-     $drush_ignore_modules = [
-      'stage_file_proxy',
-    ];
-    $command_specific['config-export']['skip-modules'] = $drush_ignore_modules;
-    $command_specific['config-import']['skip-modules'] = $drush_ignore_modules;
-
-    ```
-
-5.  Exclude module configurations. Modify `public/sites/default/settings.php` and add
+3.  Exclude module configurations. Modify `public/sites/default/settings.php` and add
 
     ``` php
     $exclude_module_config = [
@@ -43,7 +31,7 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
 
     ```
 
-6.  Create project specific make file in `tools/make/project`, for example `stage-file-proxy.mk`
+4.  Create project specific make file in `tools/make/project`, for example `stage-file-proxy.mk`
 
     ``` make
     ## if environment is not production
