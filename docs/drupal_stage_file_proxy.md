@@ -38,18 +38,19 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
     ifneq ($(ENV),production)
         ## in this case added after make fresh
         DRUPAL_FRESH_TARGETS += stagefile drush-cr
-
         ## in this case added during make fresh
         SYNC_TARGETS += stagefile drush-cr
     endif
+
     PHONY += stagefile
-    stagefile: ## enable stage_file_proxy module
-       $(call step,Enable stage_file_proxy...)
-       $(call drush_on_${RUN_ON},en stage_file_proxy -y)
+    stagefile: ## Enable stage_file_proxy module
+        $(call step,Enable stage_file_proxy...\n)
+        $(call drush,en stage_file_proxy -y)
+
     ## Override the original file sync functionality
     PHONY += drush-sync-files
     drush-sync-files:
     ifeq ($(DRUPAL_SYNC_FILES),yes)
-       $(call step, Override file sync with stage file proxy...)
+        $(call step, Override file sync with stage file proxy...\n)
     endif
     ```
