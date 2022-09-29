@@ -11,7 +11,7 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
 ## How to setup Stage File Proxy
 
 1. Install the module via composer
-    ``` zsh
+    ``` sh
     composer require drupal/stage_file_proxy --dev
     ```
 
@@ -31,26 +31,9 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
 
     ```
 
-4.  Create project specific make file in `tools/make/project`, for example `stage-file-proxy.mk`
+4.  Add the following to the `.env` file
 
-    ``` make
-    ## if environment is not production
-    ifneq ($(ENV),production)
-        ## in this case added after make fresh
-        DRUPAL_FRESH_TARGETS += stagefile drush-cr
-        ## in this case added during make fresh
-        SYNC_TARGETS += stagefile drush-cr
-    endif
-
-    PHONY += stagefile
-    stagefile: ## Enable stage_file_proxy module
-        $(call step,Enable stage_file_proxy...\n)
-        $(call drush,en stage_file_proxy -y)
-
-    ## Override the original file sync functionality
-    PHONY += drush-sync-files
-    drush-sync-files:
-    ifeq ($(DRUPAL_SYNC_FILES),yes)
-        $(call step, Override file sync with stage file proxy...\n)
-    endif
+    ``` sh
+    # Enable these modules on local
+    DRUPAL_ENABLE_MODULES="stage_file_proxy"
     ```
