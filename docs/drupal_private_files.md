@@ -3,6 +3,8 @@
 Both in Lagoon and Wodby, private files are stored under public files folder and platform takes care that the `private`
 folder cannot be accessed via browser.
 
+This way e.g. `drush rsync` command will sync both public and private files at the same time.
+
 ## Lagoon
 
 In settings file:
