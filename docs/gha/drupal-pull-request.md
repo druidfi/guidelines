@@ -2,6 +2,25 @@
 
 Put this to project's repo in `.github/workflows/drupal-pull-request.yml`:
 
+Process:
+
+- Run on pull requests
+- Check if Pull Request was made by Dependabot or Renovate
+- Start up MySQL (note: you can also setup service for database)
+- Checkout repository and current branch
+- Download artifact dump with Github CLI
+- Setup PHP version
+- Validate `composer.json` file
+- Run `composer install` to build codebase
+- Lint custom Drupal code
+- [If artifact dump was downloaded] Import database dump
+- [If artifact dump was not found] Install Drupal from configuration with Drush
+- Show `drush status` output
+- [If artifact dump was downloaded] Run `drush deploy`
+- [If PR was created by a bot] Check for new conf and commit if found
+
+Change ENV variables to suit your project's needs.
+
 ```
 name: Test Drupal Pull Request
 
@@ -109,18 +128,18 @@ jobs:
         run: |
           vendor/bin/drush deploy
 
-      #      - name: Run web server with Drush
-      #        run: |
-      #          vendor/bin/drush runserver $SIMPLETEST_BASE_URL > /dev/null 2>&1 &
-      #          chromedriver --port=4444 > /dev/null 2>&1 &
+#      - name: Run web server with Drush
+#        run: |
+#          vendor/bin/drush runserver $SIMPLETEST_BASE_URL > /dev/null 2>&1 &
+#          chromedriver --port=4444 > /dev/null 2>&1 &
 
-      #      - name: Run PHPUnit tests
-      #        run: |
-      #          set -o pipefail && vendor/bin/phpunit -c $GITHUB_WORKSPACE/phpunit.xml.dist --testdox --verbose | tee phpunit-result.txt
-      #          cat phpunit-result.txt | grep -q "✔ Unit test"
-      #          cat phpunit-result.txt | grep -q "✔ Kernel test"
-      #          cat phpunit-result.txt | grep -q "✔ Functional test"
-      #          cat phpunit-result.txt | grep -q "✔ Javascript test"
+#      - name: Run PHPUnit tests
+#        run: |
+#          set -o pipefail && vendor/bin/phpunit -c $GITHUB_WORKSPACE/phpunit.xml.dist --testdox --verbose | tee phpunit-result.txt
+#          cat phpunit-result.txt | grep -q "✔ Unit test"
+#          cat phpunit-result.txt | grep -q "✔ Kernel test"
+#          cat phpunit-result.txt | grep -q "✔ Functional test"
+#          cat phpunit-result.txt | grep -q "✔ Javascript test"
 
       - name: Bot PRs - Export configuration
         if: steps.pr.outputs.IS_BOT && steps.dump.outputs.DUMP_IMPORTED
