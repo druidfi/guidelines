@@ -1,6 +1,6 @@
 # Github Actions - Workflows - Test Drupal Pull Request
 
-Put this to project's repon in `.github/workflows/drupal-pull-request.yml`:
+Put this to project's repo in `.github/workflows/drupal-pull-request.yml`:
 
 ```
 name: Test Drupal Pull Request

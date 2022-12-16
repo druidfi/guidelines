@@ -1,6 +1,12 @@
 # Github Actions - Workflows - Test Drupal Pull Request
 
-Put this to project's repon in `.github/workflows/dump-artifact.yml`:
+Put this to project's repo in `.github/workflows/dump-artifact.yml`:
+
+Change ENV variables to suit your project's needs.
+
+## VPN
+
+If connections needs VPN connection, add opvn profile in `.github/workflows/vpn.ovpn` and set `OVPN` to `yes`.
 
 ```
 on:
@@ -17,9 +23,9 @@ env:
   OVPN: no # yes or no
   OVPN_FILE: .github/workflows/vpn.ovpn
 
-  SSH_USER: footbalance-main
-  SSH_HOST: ssh.lagoon.amazeeio.cloud
-  SSH_PORT: 32222
+  SSH_USER: some-ssh-user
+  SSH_HOST: some-ssh-host-or-ip
+  SSH_PORT: 22
   SSH_KEY: ${{ secrets.LAGOON_PRIVATE_SSH_KEY }}
 
 jobs:
