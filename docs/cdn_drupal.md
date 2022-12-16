@@ -1,6 +1,6 @@
-# How to setup CloudFront CDN for Drupal 8 site
+# How to setup CloudFront CDN for Drupal site
 
-How to configure Amazon CloudFront CDN for Drupal 8 site.
+How to configure Amazon CloudFront CDN for Drupal site.
 
 ## Requirements
 
@@ -38,4 +38,3 @@ NOTE! You'll get different cloudfront.net subdomain for your project.
 ## Links
 
 - Readme for CDN module: https://cgit.drupalcode.org/cdn/tree/README.txt
-
