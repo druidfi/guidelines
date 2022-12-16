@@ -35,10 +35,9 @@ Git based Continuous Delivery solutions we use:
 
 - [Drupal and emails](docs/drupal_emails.md)
 - [Drupal and private files](docs/drupal_private_files.md)
-- [Let's Encrypt and Certbox](docs/letsencrypt.md)
+- [Drupal and CloudFront CDN](docs/cdn_drupal.md)
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
-- [How to setup CloudFront CDN for Drupal site](docs/cdn_drupal.md)
 
 ## Misc
 
