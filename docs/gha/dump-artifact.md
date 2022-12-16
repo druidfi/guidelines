@@ -2,11 +2,21 @@
 
 Put this to project's repo in `.github/workflows/dump-artifact.yml`:
 
+Process:
+
+- Run by schedule, e.g. every night at 2 AM
+- Checkout repository and current branch
+- [optional] Install VPN
+- Setup SSH key for accessing source with SSH: comes from `${{ secrets.PRIVATE_SSH_KEY }}`
+- Create database dump using `DUMP_CALL` env
+- Store `dump.sql` to repository artifacts
+
 Change ENV variables to suit your project's needs.
 
 ## VPN
 
 If connections needs VPN connection, add opvn profile in `.github/workflows/vpn.ovpn` and set `OVPN` to `yes`.
+Set `OVPN_USERNAME` and `OVPN_PASSWORD` in the repository secrets.
 
 ```
 on:
@@ -26,7 +36,7 @@ env:
   SSH_USER: some-ssh-user
   SSH_HOST: some-ssh-host-or-ip
   SSH_PORT: 22
-  SSH_KEY: ${{ secrets.LAGOON_PRIVATE_SSH_KEY }}
+  SSH_KEY: ${{ secrets.PRIVATE_SSH_KEY }}
 
 jobs:
 
