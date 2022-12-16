@@ -15,23 +15,13 @@ See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) 
     composer require drupal/stage_file_proxy --dev
     ```
 
-2.  Add configurations for the module to development environment. Modify (or create) `public/sites/default/dev.settings.php` and add
+1.  Add configurations for the module to development environment. Modify (or create) `public/sites/default/dev.settings.php` and add
     ``` php
     // Stage file proxy origin - no trailing slash.
     $config['stage_file_proxy.settings']['origin'] = 'https://url-to-production.fi';
     ```
 
-3.  Exclude module configurations. Modify `public/sites/default/settings.php` and add
-
-    ``` php
-    $exclude_module_config = [
-        'stage_file_proxy'
-    ];
-    $settings['config_exclude_modules'] = $exclude_module_config;
-
-    ```
-
-4.  Add the following to the `.env` file
+1.  Add the following to the `.env` file
 
     ``` sh
     # Enable these modules on local
