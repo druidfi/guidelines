@@ -37,7 +37,7 @@ Various guidelines related to technical work
 Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon ↗️](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
-- Github Actions
+- Github Actions - see [example workflows](docs/gha_workflows.md)
 - [Wodby ↗️](https://wodby.com/docs/)
 - [Vercel ↗️](https://vercel.com/)
 
