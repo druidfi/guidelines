@@ -4,7 +4,7 @@ Here is descriptions for different environments which might be used in a project
 
 Read also about [Local development environment](https://github.com/druidfi/guidelines/blob/master/docs/local_dev_env.md).
 
-## Development
+## Development or Local (dev)
 
 - Developer’s own local environment
 
@@ -13,18 +13,18 @@ Read also about [Local development environment](https://github.com/druidfi/guide
 - Automated testing environment (e.g. Github Actions, Gitlab CI or Travis.ci)
 - For running tests and other integrity checks against the project build
 
-## Testing
+## Testing (test)
 
 - Latest features
 - Deployed automatically on each merge
 - Customer project team can access and test functionality
 
-## Staging
+## Staging (stage)
 
 - Latest release candidate
 - Identical environment as in Production
 
-## Production
+## Production (prod)
 
 - Latest release
 - The live application / site
