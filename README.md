@@ -13,10 +13,10 @@ Various guidelines related to technical work
 
 ## Project tools and templates
 
-- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 9 project from template
+- [Spell](https://github.com/druidfi/spell) - Create a new Drupal 10 project from template
 - [Docker images](https://github.com/druidfi/docker-images) - General use Docker images for projects
-- [druidfi/omen](https://github.com/druidfi/omen) - Drupal 8+ configurator. Detects env related configuration and sets them for you.
-- [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8/9, Symfony & WordPress toolset for every project
+- [druidfi/omen](https://github.com/druidfi/omen) - Drupal 9+ configurator. Detects env related configuration and sets them for you.
+- [druidfi/tools](https://github.com/druidfi/tools) - Drupal 7/8/9/10, Symfony & WordPress toolset for every project
 
 ## Technical tutorials
 
