@@ -1,6 +1,6 @@
 # Drupal and Stage File Proxy
 
-Stage File Proxy lets you update the database of your local development instance without having to update your files directory. Stage File Proxy transfers each requested file just in time when it is requested. This is especially useful for large sites with huge numbers of files. If you only visit 2 pages and only need 10 remote files to serve those pages, Stage File Proxy will only transfer those 10 files.
+Stage File Proxy transfers each requested file just in time when it is requested. This is especially useful for large sites with huge numbers of files. If you only visit 2 pages and only need 10 remote files to serve those pages, Stage File Proxy will only transfer those 10 files.
 
 See the [module on drupal.org](https://www.drupal.org/project/stage_file_proxy) for more information.
 
