@@ -22,6 +22,7 @@ Various guidelines related to technical work
 
 - [Drupal and emails](docs/drupal_emails.md)
 - [Drupal and private files](docs/drupal_private_files.md)
+- [Drupal and Stage File Proxy](docs/drupal_stage_file_proxy.md)
 - [Drupal and CloudFront CDN](docs/cdn_drupal.md)
 - [Drupal and Next.js with next-drupal ↗️](https://next-drupal.org/)
 - [SSO with PHP](docs/sso.md)
