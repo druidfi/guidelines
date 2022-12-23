@@ -27,6 +27,7 @@ Various guidelines related to technical work
 - [Drupal and Next.js with next-drupal ↗️](https://next-drupal.org/)
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
+- [Lagoon CLI](docs/lagoon_cli.md)
 
 ## Software and tools
 
