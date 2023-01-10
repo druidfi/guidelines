@@ -8,7 +8,7 @@ Composer is a dependency manager for PHP. See Composer [homepage ↗️](https:/
 
 ## Install with Brew (macOS)
 
-```
+``` sh
 brew install composer
 ```
 
@@ -16,7 +16,7 @@ brew install composer
 
 Install and setup Composer with PHP and move executable to `/usr/local/bin`:
 
-```
+``` sh
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
@@ -26,7 +26,7 @@ mv composer.phar /usr/local/bin/composer
 
 Now you should be able to call Composer everywhere:
 
-```
+``` sh
 composer --version
 ```
 
@@ -34,6 +34,6 @@ composer --version
 
 Composer can be updated with:
 
-```
+``` sh
 composer self-update
 ```

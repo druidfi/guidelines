@@ -9,7 +9,7 @@ This way e.g. `drush rsync` command will sync both public and private files at t
 
 In settings file:
 
-```
+``` php
 // Private files path.
 $settings['file_private_path'] = '/app/public/sites/default/files/private';
 ```
@@ -18,7 +18,7 @@ $settings['file_private_path'] = '/app/public/sites/default/files/private';
 
 In settings file at the end of Wodby specific block where it will override any other value:
 
-```
+``` php
 if (isset($_SERVER['WODBY_APP_NAME'])) {
   // The include won't be added automatically if it's already there.
   include '/var/www/conf/wodby.settings.php';
@@ -33,7 +33,7 @@ if (isset($_SERVER['WODBY_APP_NAME'])) {
 
 In `.wodby.yml` file there must be following task which symlinks private folder to `/mnt/files/private`:
 
-```
+``` yaml
   - name: Setup public and private file folders
     type: command
     command: |

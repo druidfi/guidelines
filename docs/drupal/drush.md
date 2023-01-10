@@ -16,7 +16,7 @@ See Drush [homepage ↗️](http://www.drush.org/) for more information.
 
 Install Drush with Composer:
 
-```
+``` sh
 composer req drush/drush
 ```
 
@@ -26,7 +26,7 @@ Drush has many dependencies so sometimes if might block e.g. updating Drupal cor
 
 In that case you can do this:
 
-```
+``` sh
 composer remove drush/drush
 composer update -W "drupal/core-*"
 composer req drush/drush

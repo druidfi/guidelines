@@ -11,19 +11,20 @@
 5. Now VSCode has to be configured, open up command palette with `cmd + p` and type `launch.json`
 
 6. Inside the `launch.json`, you'll find an array named `configurations`, add the following object inside the array
-```    
-{
-      "name": "Listen for Xdebug",
-      "type": "php",
-      "request": "launch",
-      "port": 9003,
-      "pathMappings": {
-        "/app": "${workspaceFolder}"
-      }
-    }
-```
 
-`"/app"` in `"pathMappings"` refers to the application directory IN THE CONTEXT OF A DOCKER CONTAINER. Which means that it might differ from project to project.
+    ``` json
+    {
+          "name": "Listen for Xdebug",
+          "type": "php",
+          "request": "launch",
+          "port": 9003,
+          "pathMappings": {
+            "/app": "${workspaceFolder}"
+          }
+        }
+    ```
+    
+    `"/app"` in `"pathMappings"` refers to the application directory IN THE CONTEXT OF A DOCKER CONTAINER. Which means that it might differ from project to project.
 
 7. Finally you can open up the VSCode debugger from activity bar, and select the `Listen for Xdebug` from the dropdown.
 

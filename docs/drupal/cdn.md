@@ -23,7 +23,7 @@ Enable CDN module and export configuration.
 
 CDN is configured as follows:
 
-```
+``` php
 $config['cdn.settings'] = [
   // CDN could be conditionally disabled here.
   'status' => TRUE,

@@ -8,7 +8,7 @@ See Docker [homepage ↗️](https://www.docker.com/) for more information.
 
 Install Docker for Mac using [Brew](brew.md)
 
-```
+``` sh
 brew install --cask docker
 ```
 
@@ -27,12 +27,12 @@ See this guide for some general ones: https://runnable.com/docker/install-docker
 
 Check Docker version
 
-```
+``` sh
 docker version
 ```
 
 Check Docker containers
 
-```
+``` sh
 docker ps
 ```

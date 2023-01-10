@@ -8,7 +8,7 @@ See Yarn [homepage ↗️](https://yarnpkg.com/) for more information.
 
 Option 1: install using [Brew](brew.md)
 
-```
+``` sh
 brew install yarn
 ```
 
@@ -20,12 +20,12 @@ See instructions for different distros: https://yarnpkg.com/en/docs/install#linu
 
 Install packages using lockfile:
 
-```
+``` sh
 yarn install --frozen-lockfile
 ```
 
 Add a package with version constraint:
 
-```
+``` sh
 yarn add webpack-cli@^4
 ```

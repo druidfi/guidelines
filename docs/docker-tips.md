@@ -6,7 +6,7 @@ Various tips when using Docker.
 
 Build a image using Dockerfile in the same folder:
 
-```
+``` sh
 docker build -t <image_name> .
 ```
 
@@ -14,13 +14,13 @@ docker build -t <image_name> .
 
 List all running containers:
 
-```
+``` sh
 docker ps
 ```
 
 List all containers:
 
-```
+``` sh
 docker ps -a
 ```
 
@@ -28,7 +28,7 @@ docker ps -a
 
 Follow log from a container:
 
-```
+``` sh
 docker logs -f <container_name>
 docker-compose logs -f <container_name>
 ```
@@ -37,13 +37,13 @@ docker-compose logs -f <container_name>
 
 Prune all unused images:
 
-```
+``` sh
 docker image prune -a
 ```
 
 Prune all:
 
-```
+``` sh
 docker system prune -a
 ```
 
