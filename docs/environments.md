@@ -2,7 +2,7 @@
 
 Here is descriptions for different environments which might be used in a project.
 
-Read also about [Local development environment](https://github.com/druidfi/guidelines/blob/master/docs/local_dev_env.md).
+Read also about [Local development environment](local_dev_env.md).
 
 ## Development or Local (dev)
 
