@@ -37,6 +37,12 @@ Check Docker containers
 docker ps
 ```
 
+Pull all images with prefix (here `druidfi`):
+
+``` sh
+docker images | awk '(NR>1) && ($2!~/none/ && $1 ~ /^druidfi/) {print $1":"$2}' | xargs -L1 docker pull
+```
+
 ## Links
 
 - [Docker tips](docker-tips.md)
