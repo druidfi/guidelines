@@ -30,14 +30,14 @@ PHP_SENDMAIL_PATH: "/usr/sbin/sendmail -S stonehenge-mailhog:1025"
 
 - In Lagoon we can use "SMTP relay" technique as a transport
 
-![Lagoon SMTP settings](../media/lagoon_smtp.png)
+![Lagoon SMTP settings](../../media/lagoon_smtp.png)
 
 ## Wodby
 
 - In Lagoon we can use "SMTP relay" technique as a transport
 - Read more on [Wodby docs](https://wodby.com/docs/1.0/infrastructure/mail-delivery/)
 
-![Wodby SMTP settings](../media/wodby_smtp.png)
+![Wodby SMTP settings](../../media/wodby_smtp.png)
 
 ## Custom
 
