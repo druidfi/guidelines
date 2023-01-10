@@ -4,7 +4,7 @@ Various guidelines related to technical work
 
 ## Local development environments
 
-- [Docker](docs/docker.md)
+- [Docker Desktop](docs/docker.md)
 - [Druid CLI ↗️](https://github.com/druidfi/cli) - Druid internal CLI tool (private)
 - [GitHub CLI ↗️](https://cli.github.com/) and authenticated with `gh auth login` to interact with Github repositories
 - [Stonehenge ↗️](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
@@ -31,11 +31,13 @@ Various guidelines related to technical work
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
 - [Lagoon CLI](docs/lagoon_cli.md)
+- [Xdebug setup for VSCode](docs/vscode_xdebug.md)
 
 ## Software and tools
 
-- [list of software](docs/software.md) used and instructions
+- [List of software](docs/software.md) used and instructions
 - macOS [scripts](docs/macos_scripts.md) for installing software
+- See [github.com/back-2-95/dotfiles ↗️](https://github.com/back-2-95/dotfiles/) for how to setup macOS
 
 ## Continuous Delivery (CD) or GitOps
 

@@ -1,4 +1,4 @@
-# Docker
+# Docker Desktop
 
 See Docker [homepage ↗️](https://www.docker.com/) for more information.
 
@@ -6,13 +6,13 @@ See Docker [homepage ↗️](https://www.docker.com/) for more information.
 
 ### macOS
 
-Install Docker for Mac using [Brew](brew.md)
+Install Docker Desktop using [Brew](brew.md)
 
 ``` sh
 brew install --cask docker
 ```
 
-Or download Docker for Mac manually for:
+Or download Docker Desktop manually for:
 
 - [Mac with Intel chip ↗️](https://desktop.docker.com/mac/main/amd64/Docker.dmg)
 - [Mac with Apple chip ↗️](https://desktop.docker.com/mac/main/arm64/Docker.dmg)
@@ -36,3 +36,7 @@ Check Docker containers
 ``` sh
 docker ps
 ```
+
+## Links
+
+- [Docker tips](docker-tips.md)

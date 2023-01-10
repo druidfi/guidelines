@@ -4,7 +4,7 @@ Various tips when using Docker.
 
 ## Building
 
-Build a image using Dockerfile in the same folder:
+Build a image using `Dockerfile` in the same folder:
 
 ``` sh
 docker build -t <image_name> .
@@ -30,7 +30,7 @@ Follow log from a container:
 
 ``` sh
 docker logs -f <container_name>
-docker-compose logs -f <container_name>
+docker compose logs -f <container_name>
 ```
 
 ## Prune

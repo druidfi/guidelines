@@ -2,11 +2,11 @@
 
 1. Install the VSCode extension "PHP Debug by Xdebug" https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug
 
-2. Make sure `XDEBUG_ENABLE: "true"` is defined in the docker-compose.yml as an environment variable
+2. Make sure `XDEBUG_ENABLE: "true"` is defined in the docker-compose.yml as an environment variable for PHP container
 
-3. After changing the docker-compose.yml, you need to run docker-compose up -d, to restart the containers 
+3. After changing the docker-compose.yml, you need to run `docker compose up -d` to restart the containers 
 
-4. Run make fresh after that
+4. Run `make fresh` after that
 
 5. Now VSCode has to be configured, open up command palette with `cmd + p` and type `launch.json`
 
