@@ -22,6 +22,7 @@ Set `OVPN_USERNAME` and `OVPN_PASSWORD` in the repository secrets.
 on:
   schedule:
     - cron:  '0 0 * * *' # UTC == 2 AM EET
+  workflow_dispatch:
 
 name: Create dump artifact
 

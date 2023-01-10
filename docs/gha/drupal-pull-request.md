@@ -80,10 +80,9 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Download dump
+        run: gh run download -n latest-dump
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh run download -n latest-dump
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
