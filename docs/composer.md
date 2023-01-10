@@ -1,12 +1,16 @@
 # Composer
 
-Composer is a dependency manager for PHP. See Composer [homepage](https://getcomposer.org/) for more information.
-
-Latest stable version is 2.2.14 (Dec 9th 2021).
+Composer is a dependency manager for PHP. See Composer [homepage ↗️](https://getcomposer.org/) for more information.
 
 ## Requirements
 
 - PHP
+
+## Install with Brew (macOS)
+
+```
+brew install composer
+```
 
 ## Install
 
@@ -31,5 +35,5 @@ composer --version
 Composer can be updated with:
 
 ```
-$ composer self-update
+composer self-update
 ```

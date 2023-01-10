@@ -1,6 +1,6 @@
 # Brew
 
-See Brew [homepage](https://brew.sh/) for more information.
+See Brew [homepage ↗️](https://brew.sh/) for more information.
 
 ## Requirements
 

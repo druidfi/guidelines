@@ -10,8 +10,8 @@ How to use SSO e.g. with Microsoft AD/Azure AD and Google.
 
 ## Solutions
 
-- [SAML Authentication module with Drupal](https://www.drupal.org/project/samlauth) - Recommended
-- [SimpleSAMLphp](https://simplesamlphp.org/) - for more complex needs (multiple IdPs or more configuration) or custom
+- [SAML Authentication module with Drupal ↗️](https://www.drupal.org/project/samlauth) - Recommended
+- [SimpleSAMLphp ↗️](https://simplesamlphp.org/) - for more complex needs (multiple IdPs or more configuration) or custom
 app
 
 ## Where to start?
@@ -26,7 +26,7 @@ side)
 
 ## Additional information
 
-- [Azure AD with SimpleSAMLphp](http://www.lewisroberts.com/2015/09/05/single-sign-on-to-azure-ad-using-simplesamlphp/)
+- [Azure AD with SimpleSAMLphp ↗️](http://www.lewisroberts.com/2015/09/05/single-sign-on-to-azure-ad-using-simplesamlphp/)
 
 ## Automatic updates on metadata
 

@@ -1,11 +1,9 @@
 # Drush
 
-See Drush [homepage](http://www.drush.org/) for more information.
+See Drush [homepage ↗️](http://www.drush.org/) for more information.
 
-Latest stable versions are (Dec 9th 2021):
-
-- 8.4.x for Drupal 7 
-- 10.6.x for Drupal 8+
+- 8.4.x for Drupal 7
+- 11.4.x for Drupal 9 and 10
 
 ## Requirements
 

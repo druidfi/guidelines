@@ -1,6 +1,6 @@
 # Docker
 
-See Docker [homepage](https://www.docker.com/) for more information.
+See Docker [homepage ↗️](https://www.docker.com/) for more information.
 
 ## Install
 
@@ -14,8 +14,8 @@ brew install --cask docker
 
 Or download Docker for Mac manually for:
 
-- [Mac with Intel chip](https://desktop.docker.com/mac/main/amd64/Docker.dmg)
-- [Mac with Apple chip](https://desktop.docker.com/mac/main/arm64/Docker.dmg)
+- [Mac with Intel chip ↗️](https://desktop.docker.com/mac/main/amd64/Docker.dmg)
+- [Mac with Apple chip ↗️](https://desktop.docker.com/mac/main/arm64/Docker.dmg)
 
 ### Linux
 
