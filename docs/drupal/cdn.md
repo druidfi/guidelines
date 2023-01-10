@@ -1,11 +1,11 @@
-# How to setup CloudFront CDN for Drupal site
+# How to setup CloudFront CDN for a Drupal site
 
-How to configure Amazon CloudFront CDN for Drupal site.
+How to configure Amazon CloudFront CDN for a Drupal site.
 
 ## Requirements
 
-- [CDN](https://www.drupal.org/project/cdn) module
-- Access to [AWS Console and to CloudFront](https://console.aws.amazon.com/cloudfront/home)
+- [CDN ↗️](https://www.drupal.org/project/cdn) module
+- Access to [AWS Console and to CloudFront ↗️](https://console.aws.amazon.com/cloudfront/home)
 
 ## Create a CloudFront distribution
 
@@ -37,4 +37,4 @@ NOTE! You'll get different cloudfront.net subdomain for your project.
 
 ## Links
 
-- Readme for CDN module: https://cgit.drupalcode.org/cdn/tree/README.txt
+- [Readme for CDN module ↗️](https://cgit.drupalcode.org/cdn/tree/README.txt)

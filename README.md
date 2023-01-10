@@ -16,15 +16,18 @@ Various guidelines related to technical work
 - [Spell ↗️](https://github.com/druidfi/spell) - Create a new Drupal 10 project from template
 - [Docker images ↗️](https://github.com/druidfi/docker-images) - General use Docker images for projects
 - [druidfi/omen ↗️](https://github.com/druidfi/omen) - Drupal 9+ configurator. Detects env related configuration and sets them for you.
-- [druidfi/tools ↗️](https://github.com/druidfi/tools) - Drupal 7/8/9/10, Symfony & WordPress toolset for every project
+- [druidfi/tools ↗️](https://github.com/druidfi/tools) - Drupal 9/10, Symfony & WordPress + JS toolset for every project
+
+## Drupal tutorials
+
+- [Emails](docs/drupal/emails.md)
+- [Private files](docs/drupal/private_files.md)
+- [Stage File Proxy](docs/drupal/stage_file_proxy.md)
+- [CloudFront CDN](docs/drupal/cdn.md)
+- [Drupal and Next.js with next-drupal ↗️](https://next-drupal.org/)
 
 ## Technical tutorials
 
-- [Drupal and emails](docs/drupal_emails.md)
-- [Drupal and private files](docs/drupal_private_files.md)
-- [Drupal and Stage File Proxy](docs/drupal_stage_file_proxy.md)
-- [Drupal and CloudFront CDN](docs/cdn_drupal.md)
-- [Drupal and Next.js with next-drupal ↗️](https://next-drupal.org/)
 - [SSO with PHP](docs/sso.md)
 - [How to setup Xdebug + PhpStorm in Docker (Amazee.io)](docs/amazee_xdebug.md)
 - [Lagoon CLI](docs/lagoon_cli.md)
@@ -39,7 +42,7 @@ Various guidelines related to technical work
 Git based Continuous Delivery solutions we use:
 
 - [Amazee.io Lagoon ↗️](https://lagoon.readthedocs.io/en/latest/using_lagoon/build_deploy_process/)
-- Github Actions - see [example workflows](docs/gha_workflows.md)
+- Github Actions - see [example workflows](docs/gha.md)
 - [Wodby ↗️](https://wodby.com/docs/)
 - [Vercel ↗️](https://vercel.com/)
 

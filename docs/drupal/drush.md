@@ -1,5 +1,7 @@
 # Drush
 
+Drush is a CLI tool for Drupal.
+
 See Drush [homepage ↗️](http://www.drush.org/) for more information.
 
 - 8.4.x for Drupal 7

@@ -14,13 +14,28 @@ Install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Install PHP
+Install PHP with Brew (macOS)
 
 ```
-brew install php
+brew tap shivammathur/php
+brew install shivammathur/php/php@8.0
+brew install shivammathur/php/php@8.1
+brew install shivammathur/php/php@8.2
 ```
 
-Install Composer
+Switch between version:
+
+```
+brew link --overwrite --force shivammathur/php/php@8.0
+```
+
+Install Composer with Brew (macOS):
+
+```
+brew install composer
+```
+
+or manually:
 
 ```
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"

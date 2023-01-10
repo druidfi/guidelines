@@ -11,7 +11,7 @@ Check individual pages for detailed information and instructions:
 | [Docker Desktop](docker.md)                         |              | Brew/installer |                        |
 | doctl                                               |              | Brew           |                        |
 | Druid CLI                                           | Github CLI   | oneliner       |                        |
-| [Drush](drush.md)                                   | PHP          | Composer       | Installed in projects  |
+| [Drush](drupal/drush.md)                            | PHP          | Composer       | Installed in projects  |
 | [GitHub CLI](https://cli.github.com/)               |              | Brew           | Authenticate with SSH  |
 | [httpie](https://httpie.io/)                        |              | Brew           |                        |
 | [iTerm2](https://iterm2.com/)                       | macOS        | Brew           |                        |
