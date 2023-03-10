@@ -2,7 +2,7 @@
 
 ## Creating the SSH key
 
-Open the folder where keys are stored (probably a folder called in Users/{your-user-name}/.ssh) in terminal and run command:
+Open the folder where keys are stored (probably a folder Users/{your-user-name}/.ssh) in terminal and run command:
 ```
 ssh-keygen
 ```
