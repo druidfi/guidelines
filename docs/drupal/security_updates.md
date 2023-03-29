@@ -2,7 +2,7 @@
 
 Here are some general guidelines for Drupal security updates.
 
- Always check with the project manager if customer is ok to proceed with the update.
+Always check with the project manager if customer is ok to proceed with the update.
 
 ## Checking Drupal release notes
 
@@ -26,7 +26,7 @@ Documentation:
 
 https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer
 
-## Updating a specific version
+### Updating a specific version
 
 This happens when you for example need to update the core from version 9.4.10 to 9.4.12
 
