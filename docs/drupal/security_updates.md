@@ -20,9 +20,9 @@ Create a branch for the update.
 
 Check the correct Drupal version release notes, check what has been updated and proceed according to instructions.
 
-## Updating Drupal with composer
+## Updating Drupal core with composer
 
-Documentation for :
+Documentation:
 
 https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer
 
@@ -35,7 +35,9 @@ When updating to a specific version, we need to handle 3 different packages:
  - drupal/core-composer-scaffold 
  - drupal/core-dev-pinned
 
-Example below is for an update to Drupal version 9.4. Please make sure you are using the relevant version number.
+Example below is for an update to Drupal version 9.4. 
+
+Please make sure you are using the relevant version number to your project.
 
 ````shell
 composer update -W "drupal/core-*" 
