@@ -44,7 +44,7 @@ composer update -W "drupal/core-*"
 Sometimes the project may include patches which are already fixing the same issue or on the same lines as the current update.
 In this case it is worth checking:
 1) Is the patch still needed after the update? 
-2) Check the issue queue for Drupal.
+2) Check the issue queue for the project.
 
 ### Deployment
 
