@@ -2,7 +2,7 @@
 
 Here are some general guidelines for Drupal security updates.
 
-Always check with the project manager if customer is ok to proceed with the update.
+**Always check with the project manager if customer is ok to proceed with the update.**
 
 ## Checking Drupal release notes
 
