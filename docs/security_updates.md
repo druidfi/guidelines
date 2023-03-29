@@ -8,6 +8,10 @@ Here are some general guidelines for Drupal security updates.
 
 Check if any automated pull requests have been made in the repository. If there is already an automated pull request, check the branch and see everything works before merging.
 
+### If no automated PR exists
+
+Create a branch for the update as usual according to the instructions below.
+
 ### Checking Drupal release notes
 
 ##### If no automated pull requests have been made, check the Drupal security updates:
@@ -15,6 +19,24 @@ Check if any automated pull requests have been made in the repository. If there 
 https://www.drupal.org/project/drupal/releases
 
 Check the correct Drupal version release notes and proceed according to instructions.
+
+### When you need to update to the latest current Drupal version with composer
+
+This happens when you for example need to update the core from version 9.4.10 to 9.4.12
+
+When updating to the latest current version, we need to handle 3 different packages:
+ - drupal/core-recommended 
+ - drupal/core-composer-scaffold 
+ - drupal/core-dev-pinned
+
+Example below is for an update to Drupal version 9.4.
+
+````shell
+composer update -W "drupal/core-*" 
+--with=drupal/core-recommended:~9.4.0 
+--with=drupal/core-composer-scaffold:~9.4.0 
+--with=drupal/core-dev-pinned:~9.4.0
+````
 
 ### Patches
 
@@ -25,6 +47,7 @@ In this case it is worth checking:
 
 ### Deployment
 
+- It is important the process does not end in staging.
 - Make sure timing of the deployment is agreed with the client
 - Make sure that the update is being tested in development (if possible) before 
 
