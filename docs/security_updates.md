@@ -21,7 +21,7 @@ https://www.drupal.org/project/drupal/releases
 
 Check the correct Drupal version release notes, check what has been updated and proceed according to instructions.
 
-### When you need to update to the latest current Drupal version with composer
+### When you need to update to the latest patch version of core with composer
 
 This happens when you for example need to update the core from version 9.4.10 to 9.4.12
 
