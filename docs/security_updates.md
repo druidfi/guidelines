@@ -18,7 +18,8 @@ Create a branch for the update as usual according to the instructions below.
 
 https://www.drupal.org/project/drupal/releases
 
-Check the correct Drupal version release notes and proceed according to instructions.
+
+Check the correct Drupal version release notes, check what has been updated and proceed according to instructions.
 
 ### When you need to update to the latest current Drupal version with composer
 
