@@ -46,6 +46,21 @@ composer update -W "drupal/core-*"
 --with=drupal/core-dev-pinned:~9.4.0
 ````
 
+## To test the update
+
+- Make sure you test the update by running the following commands.
+
+This will ensure there are no configuration changes to yaml files.
+
+```shell
+make drush-updb
+```
+
+```shell
+make drush-cex
+```
+- Make sure to test the site to see that it still works and nothing is broken.
+
 ## Patches
 
 Sometimes the project may include patches which are already fixing the same issue or on the same lines as the current update.
