@@ -23,4 +23,5 @@ Having a PR template makes it convenient to do new pull requests, saves time and
 [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 
 ### Examples
-- [AWEN](https://github.com/druidfi/awen/pull/26)
+- [AWEN](https://github.com/druidfi/awen/blob/dev/.github/pull_request_template.md)
+![img.png](img.png)
