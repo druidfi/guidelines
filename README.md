@@ -51,3 +51,4 @@ Git based Continuous Delivery solutions we use:
 ## Misc
 
 - [GDPR guidelines](docs/gdpr.md)
+- [PR templates](docs/prtemplate.md)
