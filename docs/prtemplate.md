@@ -7,7 +7,7 @@ Having a PR template makes it convenient to do new pull requests, saves time and
 - Create a `pull_request_template.md` file inside the projects .github folder.
   - Inside the file write what you want to have in the template(see suggestion below).
 ```
-## Related ticket / conversation
+## Related ticket / Customer approval
 
 
 ## In this PR
