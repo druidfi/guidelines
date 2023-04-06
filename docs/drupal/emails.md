@@ -23,7 +23,7 @@ On your local environments you want to send emails to [Mailhog](https://mailhog.
 This can be done e.g. with adding this ENV variable to your Docker service having PHP:
 
 ``` dotenv
-PHP_SENDMAIL_PATH: "/usr/sbin/sendmail -S stonehenge-mailhog:1025"
+PHP_SENDMAIL_PATH: "/usr/sbin/sendmail -S stonehenge:1025"
 ```
 
 ## Lagoon
