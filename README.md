@@ -25,6 +25,7 @@ Various guidelines related to technical work
 - [Stage File Proxy](docs/drupal/stage_file_proxy.md)
 - [CloudFront CDN](docs/drupal/cdn.md)
 - [Drupal and Next.js with next-drupal ↗️](https://next-drupal.org/)
+- [Drupal security updates](docs/drupal/security_updates.md)
 
 ## Technical tutorials
 
