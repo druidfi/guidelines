@@ -12,7 +12,7 @@ https://www.drupal.org/project/drupal/releases
 
 ## Checking if automated PR exists
 
-Check if any automated pull requests have been made in the repository. If there is already an automated pull request, check the branch and see everything works before merging. If updating to a specific version, remember to check the composer.lock file created includes the same version.
+Check if any automated pull requests have been made in the repository. If there is already an automated pull request, check the branch and see everything works before merging. If updating to a specific version, make sure to check the composer.lock file created includes the same version.
 
 ## If no automated PR exists
 
