@@ -10,6 +10,7 @@ Various guidelines related to technical work
 - [Stonehenge ↗️](https://github.com/druidfi/stonehenge) - Docker toolset supporting multiple projects
 - General notes about [local development environment](docs/local_dev_env.md)
 - [terminology](docs/environments.md) for the different environments
+- [SSH](docs/ssh.md)
 
 ## Project tools and templates
 
