@@ -18,12 +18,27 @@ For the 2nd; there are some modules which might be needed:
 
 ## Stonehenge
 
-On your local environments you want to send emails to [Mailhog](https://mailhog.docker.so).
+On your local environments you want to send emails to [Mailpit](https://mailpit.docker.so).
 
 This can be done e.g. with adding this ENV variable to your Docker service having PHP:
 
-``` dotenv
-PHP_SENDMAIL_PATH: "/usr/sbin/sendmail -S stonehenge:1025"
+On druidfi Docker images (app service):
+
+```yaml
+PHP_SENDMAIL_PATH: /usr/sbin/sendmail -S host.docker.internal:1025 -t
+```
+
+On Lagoon images (cli and php service):
+
+```yaml
+SSMTP_MAILHUB: host.docker.internal:1025
+```
+
+On Wodby images (php service):
+
+```yaml
+PHP_SENDMAIL_PATH: /usr/sbin/sendmail -S host.docker.internal:1025
+SSMTP_MAILHUB: host.docker.internal:1025
 ```
 
 ## Lagoon
@@ -55,13 +70,29 @@ You can test sendmail working correctly with login to PHP container and running 
 
 Using PHP (which uses sendmail):
 
-``` sh
+```shell
 php -r 'mail("to@druid.fi", "Test subject", "This is our test message", "From: from@druid.fi"); echo "sent";'
 ```
 
-Using sendmail directly:
+Or using verbose mode:
 
-``` sh
-echo "Subject: hello" | sendmail -S smtp.server.com:25 -t -i -v -f to@druid.fi from@druid.fi
-echo "Subject: hello" | sendmail -S smtp.server.com:25 -v -f to@druid.fi from@druid.fi
+```shell
+php -d "sendmail_path=/usr/sbin/sendmail -v -S host.docker.internal:1025 -t" -r 'mail("to@druid.fi", "Test subject", "This is our test message", "From: from@druid.fi");'
+```
+
+Using Sendmail directly:
+
+First create a file called `email.txt` with following content:
+
+```
+From: sender@example.com
+To: recipient@example.com
+Subject: Email Subject
+
+This is the body of the email.
+It can contain multiple lines of text.
+```
+
+```shell
+cat email.txt | sendmail -S host.docker.internal:1025 -v -f to@druid.fi from@druid.fi
 ```
