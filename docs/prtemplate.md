@@ -15,8 +15,12 @@ Having a PR template makes it convenient to do new pull requests, saves time and
 
 ## Testing instructions
 
-
+___
+### Remember to update the projects [Technical Documentation](Insert link to the
+technical documentation from projects confluence)
 ```
+- Replace the "Insert link..." text inside the parenthesis with a link to the projects technical documentation
+from confluence
 - Commit the changes to the repository
 
 ### For more information
