@@ -5,8 +5,9 @@ Having a PR template makes it convenient to do new pull requests, saves time and
 ## Creating a PR template
 
 - Create a `pull_request_template.md` file inside the projects .github folder.
-  - Inside the file write what you want to have in the template(see suggestion below).
-```
+- Inside the file write what you want to have in the template(see suggestion below).
+
+```markdown
 ## Related ticket / Customer approval
 
 
@@ -19,6 +20,7 @@ ___
 ### Remember to update the projects [Technical Documentation](Insert link to the
 technical documentation from projects confluence)
 ```
+
 - Replace the "Insert link..." text inside the parenthesis with a link to the projects technical documentation
 from confluence
 - Commit the changes to the repository
