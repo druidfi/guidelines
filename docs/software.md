@@ -19,6 +19,6 @@ Check individual pages for detailed information and instructions:
 | Oh My Zsh                                           | zsh          | oneliner       |                        |
 | [PHP](https://github.com/shivammathur/homebrew-php) |              | Brew           |                        |
 | Node                                                |              | nvm            |                        |
-| [nvm](https://github.com/nvm-sh/nvm)                |              | Brew/oneliner  |                        |
+| [nvm](https://github.com/nvm-sh/nvm)                |              | oneliner       |                        |
 | [Stonehenge](https://github.com/druidfi/stonehenge) | Docker       | oneliner       |                        |
 | [Yarn](yarn.md)                                     | Node         | Brew           |                        |
