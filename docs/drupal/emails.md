@@ -70,13 +70,13 @@ You can test sendmail working correctly with login to PHP container and running 
 
 Using PHP (which uses sendmail):
 
-```shell
+```console
 php -r 'mail("to@druid.fi", "Test subject", "This is our test message", "From: from@druid.fi"); echo "sent";'
 ```
 
 Or using verbose mode:
 
-```shell
+```console
 php -d "sendmail_path=/usr/sbin/sendmail -v -S host.docker.internal:1025 -t" -r 'mail("to@druid.fi", "Test subject", "This is our test message", "From: from@druid.fi");'
 ```
 
@@ -93,6 +93,6 @@ This is the body of the email.
 It can contain multiple lines of text.
 ```
 
-```shell
+```console
 cat email.txt | sendmail -S host.docker.internal:1025 -v -f to@druid.fi from@druid.fi
 ```

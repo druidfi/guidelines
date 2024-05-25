@@ -12,7 +12,7 @@
 
 6. Inside the `launch.json`, you'll find an array named `configurations`, add the following object inside the array
 
-    ``` json
+    ```json
     {
           "name": "Listen for Xdebug",
           "type": "php",

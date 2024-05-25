@@ -39,7 +39,7 @@ Example below is for an update to Drupal version 9.4.
 
 Please make sure you are using the relevant version number to your project.
 
-````shell
+````console
 composer update -W "drupal/core-*"
 --with=drupal/core-recommended:~9.4.0
 --with=drupal/core-composer-scaffold:~9.4.0
@@ -52,13 +52,14 @@ composer update -W "drupal/core-*"
 
 This will ensure there are no configuration changes to yaml files.
 
-```shell
+```console
 make drush-updb
 ```
 
-```shell
+```console
 make drush-cex
 ```
+
 - Make sure to test the site to see that it still works and nothing is broken.
 
 ## Patches

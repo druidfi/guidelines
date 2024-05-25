@@ -4,9 +4,9 @@ Various tips when using Docker.
 
 ## Building
 
-Build a image using `Dockerfile` in the same folder:
+Build an image using `Dockerfile` in the same folder:
 
-``` sh
+```console
 docker build -t <image_name> .
 ```
 
@@ -14,13 +14,13 @@ docker build -t <image_name> .
 
 List all running containers:
 
-``` sh
+```console
 docker ps
 ```
 
 List all containers:
 
-``` sh
+```console
 docker ps -a
 ```
 
@@ -28,7 +28,7 @@ docker ps -a
 
 Follow log from a container:
 
-``` sh
+```console
 docker logs -f <container_name>
 docker compose logs -f <container_name>
 ```
@@ -37,13 +37,13 @@ docker compose logs -f <container_name>
 
 Prune all unused images:
 
-``` sh
+```console
 docker image prune -a
 ```
 
 Prune all:
 
-``` sh
+```console
 docker system prune -a
 ```
 
