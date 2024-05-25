@@ -14,5 +14,4 @@
 - [PR templates](docs/prtemplate.md)
 - [SSO with PHP](docs/sso.md)
 - [SSH](docs/ssh.md)
-- [Stage File Proxy](docs/drupal/stage_file_proxy.md)
 - [Xdebug setup for VSCode](docs/vscode_xdebug.md)
